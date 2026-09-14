@@ -1,0 +1,76 @@
+{
+  "id": "theme_review",
+  "name": "Review layout",
+  "priority": 30,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": ["html[data-review]", "body[data-review]", "[data-review]"],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "div.items div.item",
+    "title": "h3 a, figcaption h3 a",
+    "linkAttr": "href",
+    "thumb": "div.image img, div.item img.image-thumb",
+    "thumbAttr": "data-original|data-src|src",
+    "lastChapter": "a[title^=\"Chapter\"]"
+  },
+  "detail": {
+    "root": "article#item-detail",
+    "title": "h1.title-detail",
+    "cover": "div.col-image img",
+    "coverAttr": "src",
+    "author": "li.author p.col-xs-8",
+    "status": "li.status p.col-xs-8",
+    "genres": "li.kind p.col-xs-8 a",
+    "description": "div.detail-content p, div.detail-content .shortened",
+    "otherName": "h2.other-name"
+  },
+  "chapters": {
+    "item": "div.list-chapter li.row:not(.heading)",
+    "link": "a",
+    "name": "a",
+    "date": "div.col-xs-4"
+  },
+  "reader": {
+    "image": "div.page-chapter > img",
+    "imageAttr": "data-original|data-src|src",
+    "exclude": ["data:"],
+    "ajax": { "enabled": false }
+  },
+  "paging": {
+    "mode": "text",
+    "selector": ".pagination li.hidden",
+    "regex": "Page\\s+(\\d+)\\s*/\\s*(\\d+)"
+  },
+  "genresNav": "ul.dropdown-menu.megamenu a[href*='/tim-truyen/']",
+  "paths": {
+    "home": "/index.html",
+    "latest": "/index.html",
+    "latestCandidates": [],
+    "popular": "/index.html",
+    "advancedSearch": "/tim-kiem.html",
+    "search": "/tim-kiem.html",
+    "searchParam": "keyword",
+    "pageMode": "param",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "đang tiến hành": 1,
+    "ongoing": 1,
+    "đang ra": 1,
+    "hoàn thành": 2,
+    "full": 2,
+    "tạm ngưng": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  },
+  "image": {
+    "localhostRefererHosts": ["picsum.photos", "fastly.picsum.photos"],
+    "skipCloudflareHosts": ["picsum.photos", "fastly.picsum.photos"]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "theme_grid",
+  "name": "Grid layout",
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "ul.grid > li",
+      "div.works-chapter-list",
+      ".list-info"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "ul.grid > li",
+    "title": ".book_info .qtip a",
+    "linkAttr": "href",
+    "thumb": ".book_avatar img",
+    "thumbAttr": "src"
+  },
+  "detail": {
+    "root": ".list-info",
+    "title": "h1",
+    "cover": "img[itemprop=image]",
+    "coverAttr": "src",
+    "author": ".org",
+    "status": ".status > p:last-child",
+    "genres": ".list01 li",
+    "description": ".story-detail-info p",
+    "otherName": ""
+  },
+  "chapters": {
+    "item": "div.works-chapter-list div.works-chapter-item",
+    "link": "a",
+    "name": "a",
+    "date": ".time-chap"
+  },
+  "reader": {
+    "image": ".page-chapter img:not([src*='stress.gif'])",
+    "imageAttr": "src",
+    "exclude": ["stress.gif", "data:"],
+    "ajax": {
+      "enabled": false
+    }
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": ".page_redirect > a:nth-last-child(2) > p:not(.active)",
+    "regex": ""
+  },
+  "paths": {
+    "home": "/",
+    "latest": "/truyen-moi-cap-nhat",
+    "latestCandidates": [],
+    "popular": "/truyen-yeu-thich",
+    "advancedSearch": "/tim-kiem-nang-cao",
+    "search": "/tim-kiem",
+    "searchParam": "q",
+    "pageMode": "path",
+    "pagePrefix": "/trang-",
+    "pageSuffix": "",
+    "genreParam": "category"
+  },
+  "statusMap": {
+    "đang tiến hành": 1,
+    "đang cập nhật": 1,
+    "đang ra": 1,
+    "hoàn thành": 2,
+    "đã hoàn thành": 2,
+    "tạm ngưng": 6,
+    "tạm hoãn": 6
+  },
+  "date": {
+    "mode": "absolute",
+    "format": "dd/MM/yyyy",
+    "unitRegex": ""
+  }
+}

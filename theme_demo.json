@@ -1,10 +1,10 @@
 {
-  "id": "theme_",
-  "name": " review layout",
+  "id": "theme_demo",
+  "name": "Review layout",
   "priority": 30,
   "detect": {
     "requiredAll": [],
-    "requiredAny": ["html[data--review]", "body[data--review]", "[data--review]"],
+    "requiredAny": ["html[data-demo-review]", "body[data-demo-review]", "[data-demo-review]"],
     "excludedAll": []
   },
   "list": {

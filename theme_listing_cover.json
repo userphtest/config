@@ -1,0 +1,86 @@
+{
+  "id": "theme_listing_cover",
+  "name": "Listing cover layout",
+  "priority": 5,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "#contentstory .inner .item .latest .chap a",
+      "#owl-slide .item .caption h3",
+      ".menu-mega a[href*='/the-loai/']"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": ".listing .inner .item",
+    "title": ".info h3 a",
+    "linkAttr": "href",
+    "thumb": ".cover img",
+    "thumbAttr": "src",
+    "lastChapter": ".latest .chap a, .info p.line:last-of-type"
+  },
+  "detail": {
+    "root": ".detailCol",
+    "title": "h1[itemprop=name]",
+    "cover": ".poster img[itemprop=image]",
+    "coverAttr": "src",
+    "author": ".book-meta .result span",
+    "status": ".book-meta .label-status",
+    "genres": ".book-meta .result a[href*='/the-loai/']",
+    "description": "[itemprop=description]",
+    "otherName": ""
+  },
+  "chapters": {
+    "item": ".chapter-list .reading-list .item",
+    "link": ".item-name a",
+    "name": ".item-name a",
+    "date": ".item-time"
+  },
+  "reader": {
+    "image": ".reading-content .inner img",
+    "imageAttr": "data-src|src",
+    "exclude": [],
+    "ajax": {
+      "enabled": false
+    }
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": ".pagination a.btn-page[href]",
+    "regex": ""
+  },
+  "genresNav": ".menu-mega a[href*='/the-loai/']",
+  "paths": {
+    "home": "/",
+    "latest": "/truyen-moi",
+    "latestCandidates": [],
+    "popular": "/truyen-hot/",
+    "advancedSearch": "",
+    "search": "/tim-kiem",
+    "searchParam": "s",
+    "pageMode": "param"
+  },
+  "statusMap": {
+    "dang ra": 1,
+    "đang ra": 1,
+    "dang cap nhat": 1,
+    "đang cập nhật": 1,
+    "dang tien hanh": 1,
+    "đang tiến hành": 1,
+    "ongoing": 1,
+    "hoan thanh": 2,
+    "hoàn thành": 2,
+    "da hoan thanh": 2,
+    "đã hoàn thành": 2,
+    "full": 2,
+    "tam ngung": 6,
+    "tạm ngưng": 6,
+    "tam hoan": 6,
+    "tạm hoãn": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  }
+}

@@ -27,7 +27,7 @@
     },
     {
       "id": "theme_demo",
-      "version": 1,
+      "version": 2,
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_demo.json"
     }
   ]

@@ -1,0 +1,86 @@
+{
+  "id": "theme_cards",
+  "name": "Cards layout",
+  "priority": 20,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "div.item-manga",
+      "div#home h2.home-title",
+      "nav.menu-top a.category-detail-1"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "div.item-manga div.item",
+    "title": "div.caption h3 a.title-manga",
+    "linkAttr": "href",
+    "thumb": "div.image-item img.image-item",
+    "thumbAttr": "data-original|data-src|src",
+    "lastChapter": "div.caption ul li.chapter-detail a.chapter"
+  },
+  "detail": {
+    "root": "body",
+    "title": "h1.title-manga",
+    "cover": "div.image-info img.image-comic",
+    "coverAttr": "data-original|data-src|src",
+    "author": "ul.info-detail-comic li.author p.detail-info",
+    "status": "ul.info-detail-comic li.status p.detail-info span.label",
+    "genres": "ul.info-detail-comic li.category p.detail-info a",
+    "description": "div.summary-content p.detail-summary",
+    "otherName": "ul.info-detail-comic li.name-other p.detail-info"
+  },
+  "chapters": {
+    "item": "#list-chapter-dt nav ul li.row:not([style])",
+    "link": "div.chapters a.chapter",
+    "name": "div.chapters a.chapter",
+    "date": "div.col-sm-3.col-4.style-chap"
+  },
+  "reader": {
+    "image": "div.list-image-detail div.page-chapter > img",
+    "imageAttr": "data-original|data-src|src",
+    "exclude": ["data:", "3qhub3"],
+    "ajax": {
+      "enabled": false
+    }
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": ".paginate ul.pagination a.page-link[rel=\"next\"]",
+    "regex": ""
+  },
+  "genresNav": "nav.menu-top a.category-detail-1",
+  "paths": {
+    "home": "/",
+    "latest": "/",
+    "latestCandidates": [],
+    "popular": "/hot",
+    "advancedSearch": "/tim-truyen",
+    "search": "/tim-truyen",
+    "searchParam": "keyword",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "đang cập nhật": 1,
+    "đang ra": 1,
+    "đang tiến hành": 1,
+    "ongoing": 1,
+    "hoàn thành": 2,
+    "đã hoàn thành": 2,
+    "full": 2,
+    "tạm ngưng": 6,
+    "tạm hoãn": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  },
+  "image": {
+    "localhostRefererHosts": [],
+    "skipCloudflareHosts": ["anhvip.xyz"]
+  }
+}

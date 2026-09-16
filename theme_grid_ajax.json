@@ -1,0 +1,81 @@
+{
+  "id": "theme_grid_ajax",
+  "name": "Grid + AJAX layout",
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "#home-tab-update",
+      "div.grid.gtc-f141a"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "#main .grid.gtc-f141a > div",
+    "title": ".text-center a",
+    "linkAttr": "href",
+    "thumb": ".b-img img",
+    "thumbAttr": "data-src|src",
+    "lastChapter": "a[href*='/chapter-']"
+  },
+  "detail": {
+    "title": "h1.mt-0.mb-6.fs-20",
+    "cover": ".a1 figure img",
+    "coverAttr": "src",
+    "author": "#extra-info .dt",
+    "status": "aside > .y6x11p .dt",
+    "genres": "a[href*='/manga-type/']"
+  },
+  "chapters": {
+    "item": "ul#myUL li.chapter",
+    "link": "a",
+    "name": "a",
+    "date": "time.timeago"
+  },
+  "reader": {
+    "image": "div.separator a.readImg > img",
+    "imageAttr": "src",
+    "exclude": ["data:"],
+    "ajax": {
+      "enabled": true,
+      "url": "/ajax/image/list/chap/{id}",
+      "idRegex": "CHAPTER_ID\\s*=\\s*(\\d+)",
+      "httpMethod": "POST",
+      "headerXRequestedWith": true
+    }
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": ".pagecurrent ~ .displaypageNum a[href]"
+  },
+  "genresNav": "a[href*='/genres/']",
+  "paths": {
+    "home": "/",
+    "latest": "/all-manga",
+    "latestCandidates": [],
+    "popular": "/all-manga",
+    "advancedSearch": "/all-manga",
+    "search": "/search",
+    "searchParam": "keyword",
+    "searchPageMode": "path",
+    "searchPagePrefix": "/",
+    "pageMode": "path",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "đang tiến hành": 1,
+    "ongoing": 1,
+    "đang ra": 1,
+    "đang cập nhật": 1,
+    "hoàn thành": 2,
+    "full": 2,
+    "tạm ngưng": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  },
+  "priority": 0
+}

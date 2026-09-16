@@ -1,0 +1,89 @@
+{
+  "id": "theme_cards_compact",
+  "name": "Compact cards layout",
+  "priority": 15,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "div.list_item_home",
+      "div.item_home",
+      ".fx-info"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "div.list_item_home div.item_home",
+    "title": "a.book_name",
+    "linkAttr": "href",
+    "thumb": "a.thumbblock img",
+    "thumbAttr": "data-src|src",
+    "lastChapter": "a.fs14.cl99"
+  },
+  "detail": {
+    "root": "body",
+    "title": "h1.fx-info__title",
+    "cover": ".fx-cover__img",
+    "coverAttr": "data-src|src",
+    "author": ".fx-meta__val a.org",
+    "status": ".fx-status",
+    "genres": ".fx-genre",
+    "description": ".fx-synopsis__text p",
+    "otherName": ""
+  },
+  "chapters": {
+    "item": "ul.fx-chap-list li.fx-chap-item",
+    "link": "a.fx-chap-item__name",
+    "name": "a.fx-chap-item__name",
+    "date": ".fx-chap-item__date"
+  },
+  "reader": {
+    "image": ".content_detail_manga img",
+    "imageAttr": "data-src|src",
+    "exclude": ["data:"],
+    "ajax": {
+      "enabled": false
+    }
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": "head link[rel=\"next\"]",
+    "regex": ""
+  },
+  "genresNav": "a.dropdown-item[href*='/the-loai/']",
+  "paths": {
+    "home": "/",
+    "latest": "/truyen-moi-cap-nhat.html",
+    "latestCandidates": [],
+    "popular": "/top-tuan.html",
+    "advancedSearch": "/tim-kiem.html",
+    "search": "/tim-kiem.html",
+    "searchParam": "q",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "còn tiếp": 1,
+    "đang ra": 1,
+    "đang cập nhật": 1,
+    "ongoing": 1,
+    "hoàn thành": 2,
+    "đã hoàn thành": 2,
+    "hoàn": 2,
+    "full": 2,
+    "tạm ngưng": 6,
+    "tạm hoãn": 6,
+    "hiatus": 6,
+    "drop": 5
+  },
+  "date": {
+    "mode": "absolute",
+    "format": "dd/MM/yyyy",
+    "unitRegex": ""
+  },
+  "image": {
+    "localhostRefererHosts": [],
+    "skipCloudflareHosts": []
+  }
+}

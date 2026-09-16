@@ -1,0 +1,87 @@
+{
+  "id": "theme_cards_tooltip",
+  "name": "Webapp cards with tooltip",
+  "priority": 14,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "form[action=\"/tim-kiem-nang-cao\"]",
+      "div[class*=\"bg-mainSec\"]",
+      "div[class*=\"__react_component_tooltip\"]"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "div.flex.bg-btn",
+    "title": "div.flex-grow a[class*=\"text-white\"]",
+    "linkAttr": "href",
+    "thumb": "a[data-tip=\"true\"] img",
+    "thumbAttr": "data-src|src",
+    "lastChapter": "div.flex-grow ul li a span:first-child"
+  },
+  "detail": {
+    "root": "div[itemProp=\"mainEntity\"]",
+    "title": "h1",
+    "cover": "img[itemProp=\"image\"]",
+    "coverAttr": "src",
+    "author": "aside[class*=\"md:col-span-1\"] a[href*=\"/tac-gia/\"]",
+    "status": "aside[class*=\"md:col-span-1\"] span:containsOwn(Trạng thái) + b",
+    "genres": "aside[class*=\"md:col-span-1\"] a[href*=\"/the-loai/\"]",
+    "description": "div[class*=\"line-clamp-3\"]",
+    "otherName": "h2"
+  },
+  "chapters": {
+    "item": "ul[itemProp=\"itemlist\"] li[itemProp=\"itemListElement\"]",
+    "link": "a.flex",
+    "name": "div[class*=\"flex items-center\"]",
+    "date": "div[class*=\"text-center\"]"
+  },
+  "reader": {
+    "image": "img.lozad",
+    "imageAttr": "data-src|src",
+    "exclude": ["data:"],
+    "ajax": {
+      "enabled": false
+    }
+  },
+  "paging": {
+    "mode": "regex",
+    "selector": "",
+    "regex": "currentPage[^\\d]*(\\d+)[^\\d]*totalPage[^\\d]*(\\d+)"
+  },
+  "genresNav": "a[href*=\"/the-loai/\"]",
+  "paths": {
+    "home": "/",
+    "latest": "/danh-sach/truyen-moi-cap-nhat",
+    "latestCandidates": ["/danh-sach/truyen-moi"],
+    "popular": "/danh-sach/truyen-hot",
+    "advancedSearch": "/tim-kiem-nang-cao",
+    "search": "/tim-kiem-nang-cao",
+    "searchParam": "keyword",
+    "searchPageMode": "path-keyword",
+    "searchPagePrefix": "/",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "đang tiến hành": 1,
+    "đang cập nhật": 1,
+    "đang ra": 1,
+    "ongoing": 1,
+    "hoàn thành": 2,
+    "đã hoàn thành": 2,
+    "tạm ngưng": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  },
+  "image": {
+    "localhostRefererHosts": [],
+    "skipCloudflareHosts": [],
+    "nextImageDecode": true
+  }
+}

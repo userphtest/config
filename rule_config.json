@@ -21,6 +21,11 @@
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_compact.json"
     },
     {
+      "id": "theme_cards_tooltip",
+      "version": 1,
+      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_tooltip.json"
+    },
+    {
       "id": "theme_grid",
       "version": 1,
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid.json"

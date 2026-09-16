@@ -49,7 +49,7 @@
     "selector": ".paginate ul.pagination a.page-link[rel=\"next\"]",
     "regex": ""
   },
-  "genresNav": "nav.menu-top a.category-detail-1",
+  "genresNav": "nav.menu-top a.category-detail-1, div.category-footer a[href*='/tim-truyen/']",
   "paths": {
     "home": "/",
     "latest": "/",

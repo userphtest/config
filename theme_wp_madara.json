@@ -89,5 +89,5 @@
     "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
   },
   "genresNav": "ul.sub-menu a[href*='/the-loai/']",
-  "priority": 15
+  "priority": 13
 }

@@ -1,0 +1,93 @@
+{
+  "id": "theme_wp_madara",
+  "name": "WordPress Madara listing",
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "div.page-item-detail.manga div.item-thumb",
+      "div#loop-content.page-content-listing",
+      "body.manga-page .profile-manga .post-title h1"
+    ],
+    "excludedAll": [
+      "div.items h1.page-title",
+      "ul.dropdown-menu.megamenu a[href*='/tim-truyen/']"
+    ]
+  },
+  "list": {
+    "item": "div.page-item-detail, div.c-tabs-item__content",
+    "title": "div.post-title h3 a",
+    "linkAttr": "href",
+    "thumb": "div.item-thumb img, div.tab-thumb img",
+    "thumbAttr": "data-src|src",
+    "lastChapter": "div.list-chapter .chapter-item .chapter a"
+  },
+  "detail": {
+    "root": "body.manga-page div.profile-manga",
+    "title": "div.post-title h1",
+    "cover": "div.summary_image img",
+    "coverAttr": "data-src|src",
+    "author": "div.tab-summary .post-content .post-content_item .author-content",
+    "status": "div.post-status .post-content_item:has(.summary-heading h5:containsOwn(Tình Trạng)) .summary-content",
+    "genres": "div.genres-content a",
+    "description": ".description-summary .summary__content",
+    "otherName": "div.post-content .post-content_item:has(.summary-heading h5:containsOwn(Tên Khác)) .summary-content"
+  },
+  "chapters": {
+    "item": "li.wp-manga-chapter",
+    "link": "a",
+    "name": "a",
+    "date": ".chapter-release-date",
+    "ajax": {
+      "enabled": true,
+      "url": "/wp-admin/admin-ajax.php",
+      "idRegex": "\"post_id\"\\s*[:=]\\s*\"?(\\d+)",
+      "httpMethod": "POST",
+      "headerXRequestedWith": true,
+      "body": {
+        "action": "manga_get_chapters",
+        "manga_id": "{id}"
+      }
+    }
+  },
+  "reader": {
+    "image": "div.reading-content img",
+    "imageAttr": "data-src|src",
+    "exclude": ["dflazy"]
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": ".wp-pagenavi a.nextpostslink"
+  },
+  "paths": {
+    "home": "/",
+    "latest": "/moi-cap-nhat/",
+    "latestCandidates": ["/moi-cap-nhat/", "/danh-sach-truyen/"],
+    "popular": "/moi-cap-nhat/",
+    "advancedSearch": "/?s=&post_type=wp-manga",
+    "search": "/",
+    "searchParam": "s",
+    "searchPageMode": "param",
+    "searchPagePrefix": "/page/",
+    "pageMode": "path",
+    "pagePrefix": "/page/",
+    "pageSuffix": "/",
+    "genreParam": "genre"
+  },
+  "statusMap": {
+    "đang dịch": 1,
+    "đang ra": 1,
+    "đang cập nhật": 1,
+    "ongoing": 1,
+    "hoàn thành": 2,
+    "full": 2,
+    "completed": 2,
+    "tạm ngưng": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  },
+  "genresNav": "ul.sub-menu a[href*='/the-loai/']",
+  "priority": 15
+}

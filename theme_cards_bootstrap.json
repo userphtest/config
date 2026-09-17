@@ -1,0 +1,83 @@
+{
+  "id": "theme_cards_bootstrap",
+  "name": "Cards bootstrap layout",
+  "priority": 16,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "div.comic-item-box",
+      "div.comic-title-link a",
+      "ul.dropdown-menu-the-loai-3cot a.dropdown-menu-the-loai-3cot__link"
+    ],
+    "excludedAll": []
+  },
+  "list": {
+    "item": "div.comic-item",
+    "title": "div.comic-title-link a",
+    "linkAttr": "href",
+    "thumb": "div.comic-img img",
+    "thumbAttr": "data-src|src",
+    "lastChapter": "a.comic-chapter"
+  },
+  "detail": {
+    "title": "h2.info-title",
+    "cover": "meta[itemprop=\"image\"]",
+    "coverAttr": "content",
+    "author": "p.comic-intro-text strong:contains(Tác giả) + span",
+    "status": "span.comic-stt",
+    "genres": "div.comic-info div.tags a",
+    "description": "div.hide-long-text.text-justify",
+    "otherName": "p.comic-intro-text strong:contains(Tên khác) + span"
+  },
+  "chapters": {
+    "item": "div.chapter-table table tbody tr",
+    "link": "a.text-capitalize",
+    "name": "td a.text-capitalize span.hidden-sm",
+    "date": "td.hidden-xs.hidden-sm"
+  },
+  "reader": {
+    "image": "#view-chapter img.lazy",
+    "imageAttr": "data-src|src",
+    "exclude": ["data:"],
+    "ajax": {
+      "enabled": false
+    }
+  },
+  "paging": {
+    "mode": "text",
+    "selector": "ul.pager li.pager-note",
+    "regex": "Trang\\s*(\\d+)\\s*/\\s*(\\d+)"
+  },
+  "genresNav": "ul.dropdown-menu-the-loai-3cot a.dropdown-menu-the-loai-3cot__link",
+  "paths": {
+    "home": "/",
+    "latest": "/danh-sach/truyen-moi-cap-nhat",
+    "latestCandidates": ["/tim-kiem-nang-cao", "/danh-sach/truyen-tranh-moi"],
+    "popular": "/danh-sach/truyen-hot",
+    "advancedSearch": "/tim-kiem-nang-cao",
+    "search": "/tim-kiem-nang-cao",
+    "searchParam": "keyword",
+    "searchPageMode": "param",
+    "searchPagePrefix": "/",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "đang tiến hành": 1,
+    "đang cập nhật": 1,
+    "đang ra": 1,
+    "ongoing": 1,
+    "hoàn thành": 2,
+    "đã hoàn thành": 2,
+    "full": 2,
+    "tạm ngưng": 6,
+    "tạm hoãn": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "relative",
+    "unitRegex": "(\\d+)\\s*(giây|phút|giờ|ngày|tuần|tháng|năm)"
+  }
+}

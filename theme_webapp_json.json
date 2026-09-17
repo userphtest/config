@@ -1,0 +1,100 @@
+{
+  "id": "theme_webapp_json",
+  "name": "SPA webapp JSON API",
+  "priority": 15,
+  "detect": {
+    "requiredAll": [
+      "div#root",
+      "script[type=\"module\"][src*=\"/assets/index-\"]",
+      "meta[name=\"keywords\"][content*=\"truyenqq\"]"
+    ],
+    "requiredAny": [],
+    "excludedAll": []
+  },
+  "json": {
+    "apiBase": "https://api.{host}",
+    "list": {
+      "root": "comics",
+      "title": "title",
+      "id": "id",
+      "hrefPrefix": "/comics",
+      "thumb": "thumbnail",
+      "lastChapter": "last_chapter.name"
+    },
+    "detail": {
+      "title": "title",
+      "cover": "thumbnail",
+      "author": "authors",
+      "status": "status",
+      "genres": "genres",
+      "genreName": "name",
+      "genreId": "id",
+      "genresHrefPrefix": "/genres",
+      "description": "description",
+      "otherName": "other_names"
+    },
+    "chapters": {
+      "root": "chapters",
+      "id": "id",
+      "name": "name",
+      "urlSuffix": "/chapters"
+    },
+    "reader": {
+      "root": "images",
+      "src": "src"
+    },
+    "genres": {
+      "endpoint": "/genres",
+      "root": "data.genres",
+      "name": "name",
+      "id": "id",
+      "pathPrefix": "/genres",
+      "limit": 100
+    }
+  },
+  "list": {
+    "item": "#no-match",
+    "title": "#no-match",
+    "thumb": "#no-match",
+    "lastChapter": null
+  },
+  "detail": {
+    "root": "#no-match",
+    "title": "#no-match"
+  },
+  "chapters": {
+    "item": "#no-match",
+    "name": "a"
+  },
+  "reader": {
+    "image": "#no-match",
+    "exclude": []
+  },
+  "paths": {
+    "home": "/",
+    "latest": "/new-comics?limit=20",
+    "latestCandidates": [],
+    "popular": "/trending-comics?limit=20",
+    "advancedSearch": "/search",
+    "search": "/search",
+    "searchParam": "q",
+    "searchPageMode": "param",
+    "searchPagePrefix": "/",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "id"
+  },
+  "statusMap": {
+    "updating": 1,
+    "completed": 2,
+    "hiatus": 6,
+    "cancelled": 5,
+    "dropped": 5
+  },
+  "image": {
+    "localhostRefererHosts": [],
+    "skipCloudflareHosts": ["images.truyenkira.net"],
+    "nextImageDecode": false
+  }
+}

@@ -16,6 +16,11 @@
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards.json"
     },
     {
+      "id": "theme_cards_bootstrap",
+      "version": 1,
+      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_bootstrap.json"
+    },
+    {
       "id": "theme_cards_compact",
       "version": 1,
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_compact.json"
@@ -49,6 +54,11 @@
       "id": "theme_grid_ajax",
       "version": 1,
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid_ajax.json"
+    },
+    {
+      "id": "theme_webapp_json",
+      "version": 1,
+      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_webapp_json.json"
     }
   ]
 }

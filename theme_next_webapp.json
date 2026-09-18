@@ -1,0 +1,102 @@
+{
+  "id": "theme_next_webapp",
+  "name": "Next.js webapp JSON API",
+  "priority": 14,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "div.v2-manga-card h3.v2-manga-title a",
+      "img.v2-reader-page-image"
+    ],
+    "excludedAll": []
+  },
+  "json": {
+    "apiBase": "https://api.{host}",
+    "readerFallbackHtml": true,
+    "list": {
+      "root": "items",
+      "title": "name",
+      "id": "slug",
+      "hrefPrefix": "/api/next/manga",
+      "thumb": "image",
+      "lastChapter": "chapter_name"
+    },
+    "detail": {
+      "title": "name",
+      "cover": "image",
+      "status": "isCompleted",
+      "genres": "categories",
+      "genreName": "name",
+      "genreId": "slug",
+      "genresHrefPrefix": "/api/next/the-loai",
+      "description": "description",
+      "htmlDecode": true,
+      "otherName": "nameOther"
+    },
+    "chapters": {
+      "root": "chapters",
+      "id": "id",
+      "name": "name",
+      "urlSuffix": "/chapters",
+      "webUrl": "readUrl",
+      "webUrlHost": "https://{host}"
+    },
+    "reader": {
+      "root": "currentChapterContent",
+      "src": "src"
+    },
+    "genres": {
+      "endpoint": "/api/next/categories",
+      "root": "categories",
+      "name": "name",
+      "id": "slug",
+      "pathPrefix": "/api/next/the-loai"
+    }
+  },
+  "list": {
+    "item": "#no-match",
+    "title": "#no-match",
+    "thumb": "#no-match",
+    "lastChapter": null
+  },
+  "detail": {
+    "root": "#no-match",
+    "title": "#no-match"
+  },
+  "chapters": {
+    "item": "#no-match",
+    "name": "a"
+  },
+  "reader": {
+    "image": "img.v2-reader-page-image",
+    "imageAttr": "src",
+    "exclude": []
+  },
+  "paths": {
+    "home": "/",
+    "latest": "/api/next/the-loai/dang-hot?sort=latest",
+    "latestCandidates": [],
+    "popular": "/api/next/the-loai/dang-hot",
+    "advancedSearch": "/api/next/search",
+    "search": "/api/next/search",
+    "searchParam": "q",
+    "searchPageMode": "param",
+    "searchPagePrefix": "/",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "statusMap": {
+    "true": 2
+  },
+  "image": {
+    "localhostRefererHosts": [],
+    "skipCloudflareHosts": [
+      "cdn2.vitruyen1.com",
+      "cdn5.vitruyen1.com",
+      "static.vitruyen1.com"
+    ],
+    "nextImageDecode": false
+  }
+}

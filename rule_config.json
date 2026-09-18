@@ -46,6 +46,11 @@
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_listing_cover.json"
     },
     {
+      "id": "theme_next_webapp",
+      "version": 1,
+      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_next_webapp.json"
+    },
+    {
       "id": "theme_review",
       "version": 1,
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_review.json"

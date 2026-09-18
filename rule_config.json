@@ -74,6 +74,11 @@
       "id": "theme_tailwind",
       "version": 1,
       "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_tailwind.json"
+    },
+    {
+      "id": "theme_wp_madara_slug_ajax",
+      "version": 1,
+      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara_slug_ajax.json"
     }
   ]
 }

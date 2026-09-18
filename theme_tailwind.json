@@ -1,0 +1,86 @@
+{
+  "id": "theme_tailwind",
+  "name": "Tailwind SSR grid",
+  "priority": 12,
+  "detect": {
+    "requiredAll": [],
+    "requiredAny": [
+      "div.manga-horizontal-bar-content",
+      "div.manga-horizontal-bar-container"
+    ],
+    "excludedAll": []
+  },
+  "image": {
+    "localhostRefererHosts": [],
+    "skipCloudflareHosts": [
+      "cdn1.zetimage.com",
+      "cdn2.zetimage.com",
+      "cdn3.zetimage.com",
+      "cdn4.zetimage.com",
+      "cdn5.zetimage.com"
+    ],
+    "nextImageDecode": false
+  },
+  "paths": {
+    "home": "/",
+    "latest": "/tim-kiem-nang-cao",
+    "latestCandidates": [],
+    "popular": "/tim-kiem-nang-cao?sort=rating",
+    "advancedSearch": "/tim-kiem-nang-cao",
+    "search": "/tim-kiem-nang-cao",
+    "searchParam": "keyword",
+    "searchPageMode": "param",
+    "searchPagePrefix": "/",
+    "pageMode": "param",
+    "pagePrefix": "/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  },
+  "genresNav": "a[href*='/the-loai/']",
+  "list": {
+    "item": "div[class*='md:grid-cols-5'] > a[href*='/truyen-tranh/']",
+    "title": "span.line-clamp-2",
+    "linkAttr": "href",
+    "thumb": "img",
+    "thumbAttr": "data-src|src",
+    "lastChapter": "span[class*='text-txt-secondary']"
+  },
+  "detail": {
+    "root": null,
+    "title": "h1.comic-title-content",
+    "cover": "div.thumb-cover img",
+    "coverAttr": "src",
+    "author": null,
+    "status": "div.bg-filter-box div.text-sm.capitalize",
+    "genres": "a[href*='/the-loai/'][role='button']",
+    "description": "p.comic-content.desk",
+    "otherName": null
+  },
+  "statusMap": {
+    "đang tiến hành": 1,
+    "ongoing": 1,
+    "hoàn thành": 2,
+    "full": 2,
+    "tạm ngừng": 6,
+    "hiatus": 6
+  },
+  "chapters": {
+    "item": "#no-match",
+    "name": "a",
+    "date": null,
+    "json": {
+      "url": "/api/comics/{slug}/chapters?per_page=-1&order=asc",
+      "root": "data.chapters",
+      "id": "chapter_id",
+      "name": "chapter_name",
+      "slug": "chapter_slug",
+      "date": "updated_at"
+    }
+  },
+  "reader": {
+    "image": "div.chapter-images-container img[src*='zetimage.com']",
+    "imageAttr": "src",
+    "exclude": [],
+    "nextImageDecode": false
+  }
+}

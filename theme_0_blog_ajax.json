@@ -41,6 +41,7 @@
     "image": "div.page-chapter > img",
     "imageAttr": "data-original|data-src|src",
     "exclude": ["data:"],
+    "title": "h1.txt-primary span",
     "ajax": {
       "enabled": true,
       "url": "/ajax/image/list/chap/{id}",

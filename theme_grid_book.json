@@ -36,6 +36,7 @@
     "date": ".time-chap"
   },
   "reader": {
+    "title": ".breadcrumb li:last-child span",
     "image": ".page-chapter img",
     "imageAttr": "data-original|data-src|src",
     "exclude": ["data:", "stress.gif"],

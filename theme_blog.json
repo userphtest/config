@@ -33,7 +33,16 @@
     "item": "div.list-chapter li.row:not(.heading)",
     "link": "a",
     "name": "a",
-    "date": "div.col-xs-4"
+    "date": "div.col-xs-4",
+    "json": {
+      "url": "/Comic/Services/ComicService.asmx/ChapterList?slug={slug}",
+      "root": "data",
+      "id": "chapter_num",
+      "name": "chapter_name",
+      "date": "updated_at",
+      "href": "/chuong-{id}",
+      "preferFullList": true
+    }
   },
   "reader": {
     "image": "div.page-chapter > img",

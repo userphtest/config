@@ -40,6 +40,7 @@
     "image": "div.list-image-detail div.page-chapter > img",
     "imageAttr": "data-original|data-src|src",
     "exclude": ["data:", "3qhub3"],
+    "title": "#select_chapter option[selected]",
     "ajax": {
       "enabled": false
     }

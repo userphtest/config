@@ -35,13 +35,14 @@
     "name": "a",
     "date": "div.col-xs-4",
     "json": {
-      "url": "/Comic/Services/ComicService.asmx/ChapterList?slug={slug}",
+      "url": "/Comic/Services/ComicService.asmx/ChapterList?slug={slug}&comicId={comicId}",
       "root": "data",
       "id": "chapter_num",
       "name": "chapter_name",
       "date": "updated_at",
       "href": "/chuong-{id}",
-      "preferFullList": true
+      "preferFullList": true,
+      "comicIdReg": "-([0-9]+)$"
     }
   },
   "reader": {

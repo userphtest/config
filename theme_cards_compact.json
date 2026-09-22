@@ -40,6 +40,7 @@
     "image": ".content_detail_manga img",
     "imageAttr": "data-src|src",
     "exclude": ["data:"],
+    "title": ".number_chap",
     "ajax": {
       "enabled": false
     }

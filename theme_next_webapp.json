@@ -43,7 +43,8 @@
     },
     "reader": {
       "root": "currentChapterContent",
-      "src": "src"
+      "src": "src",
+      "title": "currentChapterContent.name"
     },
     "genres": {
       "endpoint": "/api/next/categories",
@@ -70,7 +71,8 @@
   "reader": {
     "image": "img.v2-reader-page-image",
     "imageAttr": "src",
-    "exclude": []
+    "exclude": [],
+    "title": ".v2-reader-page .v2-panel h1 + p"
   },
   "paths": {
     "home": "/",

@@ -1,84 +1,84 @@
-{
-  "sources": [
-    {
-      "id": "theme_0_blog_ajax",
-      "version": 2,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_0_blog_ajax.json"
-    },
-    {
-      "id": "theme_blog",
-      "version": 4,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_blog.json"
-    },
-    {
-      "id": "theme_cards",
-      "version": 4,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards.json"
-    },
-    {
-      "id": "theme_cards_bootstrap",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_bootstrap.json"
-    },
-    {
-      "id": "theme_cards_compact",
-      "version": 2,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_compact.json"
-    },
-    {
-      "id": "theme_cards_tooltip",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_tooltip.json"
-    },
-    {
-      "id": "theme_grid",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid.json"
-    },
-    {
-      "id": "theme_grid_book",
-      "version": 2,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid_book.json"
-    },
-    {
-      "id": "theme_listing_cover",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_listing_cover.json"
-    },
-    {
-      "id": "theme_next_webapp",
-      "version": 2,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_next_webapp.json"
-    },
-    {
-      "id": "theme_review",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_review.json"
-    },
-    {
-      "id": "theme_grid_ajax",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid_ajax.json"
-    },
-    {
-      "id": "theme_webapp_json",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_webapp_json.json"
-    },
-    {
-      "id": "theme_wp_madara",
-      "version": 2,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara.json"
-    },
-    {
-      "id": "theme_tailwind",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_tailwind.json"
-    },
-    {
-      "id": "theme_wp_madara_slug_ajax",
-      "version": 1,
-      "url": "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara_slug_ajax.json"
-    }
-  ]
+﻿{
+    "sources":  [
+                    {
+                        "id":  "theme_0_blog_ajax",
+                        "version":  2,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_0_blog_ajax.json"
+                    },
+                    {
+                        "id":  "theme_blog",
+                        "version":  4,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_blog.json"
+                    },
+                    {
+                        "id":  "theme_cards",
+                        "version":  4,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards.json"
+                    },
+                    {
+                        "id":  "theme_cards_bootstrap",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_bootstrap.json"
+                    },
+                    {
+                        "id":  "theme_cards_compact",
+                        "version":  2,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_compact.json"
+                    },
+                    {
+                        "id":  "theme_cards_tooltip",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_cards_tooltip.json"
+                    },
+                    {
+                        "id":  "theme_grid",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid.json"
+                    },
+                    {
+                        "id":  "theme_grid_book",
+                        "version":  2,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid_book.json"
+                    },
+                    {
+                        "id":  "theme_listing_cover",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_listing_cover.json"
+                    },
+                    {
+                        "id":  "theme_next_webapp",
+                        "version":  2,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_next_webapp.json"
+                    },
+                    {
+                        "id":  "theme_review",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_review.json"
+                    },
+                    {
+                        "id":  "theme_grid_ajax",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_grid_ajax.json"
+                    },
+                    {
+                        "id":  "theme_webapp_json",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_webapp_json.json"
+                    },
+                    {
+                        "id":  "theme_wp_madara",
+                        "version":  2,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara.json"
+                    },
+                    {
+                        "id":  "theme_tailwind",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_tailwind.json"
+                    },
+                    {
+                        "id":  "theme_wp_madara_slug_ajax",
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara_slug_ajax.json"
+                    }
+                ]
 }

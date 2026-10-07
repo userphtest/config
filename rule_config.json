@@ -77,7 +77,7 @@
                     },
                     {
                         "id":  "theme_wp_madara_slug_ajax",
-                        "version":  2,
+                        "version":  3,
                         "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara_slug_ajax.json"
                     }
                 ]

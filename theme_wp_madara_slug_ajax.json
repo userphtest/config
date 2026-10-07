@@ -8,7 +8,7 @@
                    "requiredAny":  [
                                        "div.item-thumb[data-post-id]",
                                        "a.slicarda[href*=\u0027/manga/\u0027]",
-                                       ".slicarda a[href*=\u0027/manga/\u0027]"
+                                       "a.slicarda"
                                    ],
                    "excludedAll":  [
                                        "div.items h1.page-title",

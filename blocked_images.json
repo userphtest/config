@@ -1,0 +1,45 @@
+{
+  "version": 6,
+  "defaultMaxDistance": 10,
+  "defaultRatioTolerance": 0.08,
+  "anchors": ["top"],
+  "maxTiles": 6,
+  "tiles": [
+    {
+      "id": "fanpage_banner_standalone",
+      "dhash": "e6e6c4c4c1c61e0e",
+      "aspect": 1.063,
+      "note": "Anh QC fanpage nhom dich dung mot minh (900x957) -> phu kin trang -> an"
+    },
+    {
+      "id": "cover_website_notice",
+      "dhash": "3c1b585c4d4d393b",
+      "aspect": 0.75,
+      "note": "Anh bia + chu 'Website hien tai dang dang truyen la...' (800x600), ghep o dau trang"
+    },
+    {
+      "id": "fanpage_screenshot_a",
+      "dhash": "61cce6c7cede4c3b",
+      "aspect": 1.55,
+      "note": "Anh chup fanpage + 'PAGE CU BI KHOA...' + FB.COM/... (800x1240), nam ngay duoi cover_website_notice"
+    },
+    {
+      "id": "fanpage_screenshot_b",
+      "dhash": "30fcc2fcde5e5a3b",
+      "aspect": 1.5,
+      "note": "Anh chup fanpage 'Unofficial' + footer 'DOC TRUYEN CHINH CHU TAI...' (800x1200), nam ngay duoi cover_website_notice"
+    },
+    {
+      "id": "pink_characters_site_notice",
+      "dhash": "acba6b34b5353515",
+      "aspect": 0.559,
+      "note": "Banner hong nhan vat anime + 'CAP NHAT CHUONG MOI SOM NHAT TAI WEBSITE' + dai trang 'TRUY CAP NGAY ... DE UNG HO NHOM DICH' toi duong gach dut (630x352), ghep o dau trang"
+    },
+    {
+      "id": "ink_wash_ai_translate_site",
+      "dhash": "c60e8697ab868e57",
+      "aspect": 0.428,
+      "note": "Banner thuy mac 2 nhan vat co trang + 'DichTruyenAI.com / Dich truyen bang AI sieu nhanh' (940x402), ghep o dau trang"
+    }
+  ]
+}

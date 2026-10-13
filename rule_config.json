@@ -1,4 +1,4 @@
-﻿{
+{
     "sources":  [
                     {
                         "id":  "theme_0_blog_ajax",
@@ -80,5 +80,9 @@
                         "version":  3,
                         "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_wp_madara_slug_ajax.json"
                     }
-                ]
+                ],
+    "blockedImages":  {
+                        "version":  1,
+                        "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/blocked_images.json"
+                    }
 }

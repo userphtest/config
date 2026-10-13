@@ -1,0 +1,92 @@
+{
+  "id": "theme_wp_madara_genre_nav",
+  "name": "WordPress Madara (genre taxonomy nav riêng)",
+  "detect": {
+    "requiredAll": [
+      "a[href*='/manga-genre/']"
+    ],
+    "requiredAny": [
+      "div.page-item-detail.manga div.item-thumb",
+      "div#loop-content.page-content-listing",
+      "body.manga-page .profile-manga .post-title h1"
+    ],
+    "excludedAll": [
+      "div.items h1.page-title",
+      "a.slicarda"
+    ]
+  },
+  "list": {
+    "item": "div.page-item-detail, div.c-tabs-item__content",
+    "title": "div.post-title h3 a",
+    "linkAttr": "href",
+    "thumb": "div.item-thumb img, div.tab-thumb img",
+    "thumbAttr": "src|data-src",
+    "lastChapter": "div.list-chapter .chapter-item .chapter a"
+  },
+  "detail": {
+    "root": "body.manga-page div.profile-manga",
+    "title": "div.post-title h1",
+    "cover": "div.summary_image img",
+    "coverAttr": "src|data-src",
+    "author": "div.tags-content a",
+    "status": "div.post-status .post-content_item:has(.summary-heading h5:containsOwn(Trạng thái)) .summary-content",
+    "genres": "div.genres-content a",
+    "description": ".description-summary .summary__content",
+    "otherName": "div.post-content .post-content_item:has(.summary-heading h5:containsOwn(Tên Khác)) .summary-content"
+  },
+  "chapters": {
+    "item": "li.wp-manga-chapter",
+    "link": "a",
+    "name": "a",
+    "date": ".chapter-release-date, .post-on",
+    "ajax": {
+      "enabled": true,
+      "url": "{id}ajax/chapters/?t=1",
+      "idRegex": "\"base_url\"\\s*:\\s*\"([^\"]+)\"",
+      "httpMethod": "POST",
+      "headerXRequestedWith": true,
+      "body": {}
+    }
+  },
+  "reader": {
+    "image": "div.reading-content #comic-wrap div.page-box img",
+    "imageAttr": "src|data-src",
+    "exclude": ["dflazy", "logo"]
+  },
+  "paging": {
+    "mode": "next-link",
+    "selector": ".wp-pagenavi a.nextpostslink"
+  },
+  "paths": {
+    "home": "/",
+    "latest": "/manga/",
+    "popular": "/",
+    "advancedSearch": "/?post_type=wp-manga&s=",
+    "search": "/",
+    "searchParam": "post_type=wp-manga&s",
+    "searchPageMode": "path",
+    "searchPagePrefix": "/page/",
+    "pageMode": "path",
+    "pagePrefix": "/page/",
+    "pageSuffix": "/",
+    "genreParam": "genre"
+  },
+  "statusMap": {
+    "hoàn thành": 2,
+    "full": 2,
+    "completed": 2,
+    "đang ra": 1,
+    "đang tiến hành": 1,
+    "đang dịch": 1,
+    "đang cập nhật": 1,
+    "ongoing": 1,
+    "tạm ngưng": 6,
+    "hiatus": 6
+  },
+  "date": {
+    "mode": "absolute",
+    "format": "dd/MM/yyyy"
+  },
+  "genresNav": "a[href*='/manga-genre/']",
+  "priority": 15
+}

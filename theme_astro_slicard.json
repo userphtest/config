@@ -1,0 +1,86 @@
+{
+  "id": "theme_astro_slicard",
+  "name": "Astro SSR (card grid)",
+  "priority": 16,
+  "detect": {
+    "requiredAll": [
+      "h3.slicardtitle"
+    ],
+    "requiredAny": [
+      "a.slicarda[href*='/manga/']",
+      "div.homenavtax"
+    ],
+    "excludedAll": [
+      "div.item-thumb[data-post-id]"
+    ]
+  },
+  "list": {
+    "item": "a.slicarda[href*='/manga/'], div.pb-2 a[href*='/manga/']",
+    "title": "h3.slicardtitle, h3.cardtitle",
+    "linkAttr": "href",
+    "thumb": "img.slicardimg, img.card",
+    "thumbAttr": "src",
+    "lastChapter": "p.slicardtitlep"
+  },
+  "detail": {
+    "root": null,
+    "title": "nav[aria-label='Breadcrumb'] a[href*='/manga/']",
+    "cover": "meta[property='og:image']",
+    "coverAttr": "content",
+    "author": "div#info a[href*='/manga-author/'] span",
+    "status": "div#info h1 span",
+    "genres": "div#info a[href*='/manga-genre/']",
+    "description": "p.line-clamp-4",
+    "otherName": null
+  },
+  "statusMap": {
+    "ongoing": 1,
+    "completed": 2,
+    "hiatus": 6
+  },
+  "chapters": {
+    "item": "#chapterListDesc .chapteritem, #chapterListAsc .chapteritem",
+    "link": "a",
+    "name": "span.chaptertitle",
+    "date": "span.text-sm.italic",
+    "ajax": {
+      "enabled": true,
+      "url": "/manga/get?mid={id}",
+      "idRegex": "id=\"mangachapters\"[^>]*data-mid=\"(\\d+)\"",
+      "httpMethod": "GET",
+      "headerXRequestedWith": false
+    }
+  },
+  "reader": {
+    "image": "#chapcontent img.lazyload",
+    "imageAttr": "data-src|src",
+    "exclude": [
+      "comk/offer",
+      "data:"
+    ],
+    "title": "title",
+    "ajax": {
+      "enabled": true,
+      "url": "/chapter/getcontent?m={id}&c={id2}",
+      "idRegex": "data-ms=\"(\\d+)\" data-ct=\"[^\"]*\" data-cs=\"(\\d+)\"",
+      "httpMethod": "GET",
+      "headerXRequestedWith": false
+    }
+  },
+  "genresNav": "div.homenavtax a[href*='/manga-tag/']",
+  "paths": {
+    "home": "/",
+    "latest": "/newss/",
+    "latestCandidates": [],
+    "popular": "/hots/",
+    "advancedSearch": "/allmanga/",
+    "search": "/s",
+    "searchParam": "keyword",
+    "searchPageMode": "path-keyword",
+    "searchPagePrefix": "/",
+    "pageMode": "path",
+    "pagePrefix": "/page/",
+    "pageSuffix": "",
+    "genreParam": "genres"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -46,6 +46,19 @@
       "dhash": "c60e8697ab868e57",
       "aspect": 0.428,
       "note": "Banner thuy mac 2 nhan vat co trang hai ben, chu o giua (940x402), ghep o dau trang"
+    },
+    {
+      "id": "promo_card_bubble_notice",
+      "dhash": "c3e67656ecacd4c5",
+      "aspect": 0.48,
+      "maxDistance": 4,
+      "note": "Anh QC (900x432): the anh nhan vat vien cam ben trai + bong thoai keu goi truy cap + dai chu o day tren nen phac thao xam; dung rieng hoac ghep mep trang. Nguong 4: day anh QC khac chi cach 6 bit"
+    },
+    {
+      "id": "group_fanpage_follow_notice",
+      "dhash": "602ae2e3e8ecb4d4",
+      "aspect": 1.029,
+      "note": "Anh QC (1000x1029): 4 dong chu den keu goi theo doi fanpage nhom tren nen trang + dong link + hang 5 anh bia toi + thanh fanpage nen toi o day; dung rieng hoac ghep mep trang"
     }
   ]
 }

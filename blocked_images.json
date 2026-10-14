@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -28,6 +28,12 @@
       "dhash": "30fcc2fcde5e5a3b",
       "aspect": 1.5,
       "note": "Anh chup fanpage (hang avatar + 2 nut xam) + footer chu do tren nen trang (800x1200), nam ngay duoi cover_website_notice"
+    },
+    {
+      "id": "fanpage_screenshot_short",
+      "dhash": "dcfe48f4de4a7b3b",
+      "aspect": 1.346,
+      "note": "Anh chup fanpage KHONG co footer chu do (720x969), ket thuc bang duong ke xam; ghep o dau trang (duoi cover_website_notice) hoac cuoi chapter (tren cover_website_notice)"
     },
     {
       "id": "pink_characters_site_notice",

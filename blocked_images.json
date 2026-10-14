@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -59,6 +59,18 @@
       "dhash": "602ae2e3e8ecb4d4",
       "aspect": 1.029,
       "note": "Anh QC (1000x1029): 4 dong chu den keu goi theo doi fanpage nhom tren nen trang + dong link + hang 5 anh bia toi + thanh fanpage nen toi o day; dung rieng hoac ghep mep trang"
+    },
+    {
+      "id": "yellow_site_banner",
+      "dhash": "e70d07a6dc060202",
+      "aspect": 0.501,
+      "note": "Banner nen vang: nhan vat nam toc vang ben trai + ten website va 2 link phu ben phai + bong thanh pho den o day (900x450); ghep cuoi chapter (tren anh chup fanpage co footer do) hoac mep trang"
+    },
+    {
+      "id": "fanpage_screenshot_red_footer",
+      "dhash": "cce2e5c6de4a583b",
+      "aspect": 1.35,
+      "note": "Anh chup fanpage (anh bia cap doi + avatar tron + nut theo doi) + footer 3 dong chu do/tim bao doi page + khe trang ben duoi (900x1215); ghep cuoi chapter giua yellow_site_banner va cover_website_notice. Cung ho voi fanpage_screenshot_a (ban ngan khop dau ban dai ~1 bit)"
     }
   ]
 }

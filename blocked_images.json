@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],

@@ -24,7 +24,7 @@
     "lastChapter": "div.list-chapter .chapter-item .chapter a"
   },
   "detail": {
-    "root": "body.manga-page div.profile-manga",
+    "root": "body.manga-page div.site-content",
     "title": "div.post-title h1",
     "cover": "div.summary_image img",
     "coverAttr": "src|data-src",
@@ -49,7 +49,7 @@
     }
   },
   "reader": {
-    "image": "div.reading-content #comic-wrap div.page-box img",
+    "image": "div.reading-content #comic-wrap div.page-box > img, div.reading-content #comic-wrap div.page-box > div > img",
     "imageAttr": "src|data-src",
     "exclude": ["dflazy", "logo"]
   },

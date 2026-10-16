@@ -39,13 +39,14 @@
     "hiatus": 6
   },
   "chapters": {
-    "item": "#chapterListDesc .chapteritem, #chapterListAsc .chapteritem",
+    "item": "#allchapterlist .chapteritem",
     "link": "a",
     "name": "span.chaptertitle",
     "date": "span.text-sm.italic",
+    "reverse": true,
     "ajax": {
       "enabled": true,
-      "url": "/manga/get?mid={id}",
+      "url": "/manga/get?mid={id}&mode=all",
       "idRegex": "id=\"mangachapters\"[^>]*data-mid=\"(\\d+)\"",
       "httpMethod": "GET",
       "headerXRequestedWith": false

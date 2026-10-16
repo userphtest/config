@@ -87,7 +87,7 @@
                     },
                     {
                         "id":  "theme_astro_slicard",
-                        "version":  1,
+                        "version":  2,
                         "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/theme_astro_slicard.json"
                     }
                 ],

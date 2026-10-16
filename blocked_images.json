@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -71,6 +71,74 @@
       "dhash": "cce2e5c6de4a583b",
       "aspect": 1.35,
       "note": "Anh chup fanpage (anh bia cap doi + avatar tron + nut theo doi) + footer 3 dong chu do/tim bao doi page + khe trang ben duoi (900x1215); ghep cuoi chapter giua yellow_site_banner va cover_website_notice. Cung ho voi fanpage_screenshot_a (ban ngan khop dau ban dai ~1 bit)"
+    },
+    {
+      "id": "anime_grid_site_banner",
+      "dhash": "8b489159b4606575",
+      "aspect": 0.559,
+      "note": "Banner luoi rat nhieu nhan vat anime nen tim + 3 dong chu trang o giua (ten website + link du phong) (800x447); ghep dau trang ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "wide_purple_site_banner",
+      "dhash": "e2c44a02d395956b",
+      "aspect": 0.334,
+      "note": "Banner ngang nen tim dam: nhom nhan vat co trang hai ben + chu vang 'cap nhat chuong moi' + ten website chu vang lon + dai link du phong (1274x425); ghep cuoi chapter ngay tren fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "violet_scholar_site_banner",
+      "dhash": "afacbc9d833db9bd",
+      "aspect": 0.464,
+      "note": "Banner nen tim hoa tiet cua so: nam nhan vat co trang ao trang ben phai + ten website chu trang va dong link nho ben trai (1274x591); ghep dau trang ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "blue_boy_site_banner",
+      "dhash": "bf5fdfa52d3bbebe",
+      "aspect": 0.75,
+      "note": "Banner nen xanh-tim: cau be toc trang ao khoac trang dung ben phai + ten website chu trang lon 2 dong ben trai + dong link (1274x956); ghep cuoi chapter ngay tren fanpage_screenshot_red_footer. Cung ti le voi cover_website_notice nhung hash cach xa (>=26 bit)"
+    },
+    {
+      "id": "translate_extension_promo",
+      "dhash": "27d85cf853da7a3b",
+      "aspect": 1.391,
+      "note": "Anh QC dung mot minh (719x1000): 2 the gioi thieu tien ich dich truyen (meo + chu do/xanh) + 3 dong chu + nut tai tien ich + ma QR; la dau VA cuoi chapter (truyen cat lat 719x1000) -> an ca trang"
+    },
+    {
+      "id": "translate_before_after_raw_sources",
+      "dhash": "37352c1b1b131b37",
+      "aspect": 0.471,
+      "note": "Anh QC dung mot minh (719x339): so sanh truoc/sau khi dich tren nen toi + chu 'nhieu nguon raw' + anh chup cac trang raw; ngay sau translate_extension_promo o dau chapter va cuoi chapter"
+    },
+    {
+      "id": "app_download_qr_banner",
+      "dhash": "000000ee8cacacac",
+      "aspect": 0.272,
+      "maxDistance": 6,
+      "note": "Dai QC nen trang (720x196 tinh tu mep tren chu): 2 dong chu keu goi tai app + ten website chu do + ma QR + 2 nut cua hang ung dung; ghep DAY lat truyen cuoi (truoc 2 anh QC dung rieng). Nhieu bit 0 do nen trang -> nguong 6"
+    },
+    {
+      "id": "app_download_qr_banner_short_pad",
+      "dhash": "c660ac8cacac8eac",
+      "aspect": 0.201,
+      "maxDistance": 6,
+      "note": "Bien the cua app_download_qr_banner voi khe trang duoi chu NGAN hon (800x161 tinh tu mep tren chu): nam giua trang cuoi chapter, ngay tren orange_reader_site_banner. Cung noi dung nhung khac le trang nen khong khop tile cu (25 bit)"
+    },
+    {
+      "id": "orange_reader_site_banner",
+      "dhash": "626a42ccdaedc7c7",
+      "aspect": 0.7,
+      "note": "Banner nen xanh mint/cam nhat: cau be toc cam ao hoodie trang quang khan xanh cam sach doc ben phai + ten website chu xanh dam 2 dong ben trai + dong link (800x560); ghep cuoi chapter ngay tren fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "violet_girl_site_banner",
+      "dhash": "e1c19da3a5b1d4f8",
+      "aspect": 0.936,
+      "note": "Banner nen den-tim hong tia sang: co gai toc den dai ao vest den day xich ben phai + 2 dong link chu trang tren nen toi ben trai (1024x958); ghep dau trang ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "red_foxgirl_site_banner",
+      "dhash": "a4af3f332bc7c73f",
+      "aspect": 0.5,
+      "note": "Banner nen do vien rang cua trang/den: co gai tai cao ao thuy thu den lam dau tay chu V ben phai + 2 dong chu trang 'chuong moi cap nhat som nhat' + ten website chu vang + 2 dong link (800x400); ghep dau trang ngay duoi fanpage_screenshot_red_footer"
     }
   ]
 }

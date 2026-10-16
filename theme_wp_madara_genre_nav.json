@@ -51,7 +51,8 @@
   "reader": {
     "image": "div.reading-content #comic-wrap div.page-box > img, div.reading-content #comic-wrap div.page-box > div > img",
     "imageAttr": "src|data-src",
-    "exclude": ["dflazy", "logo"]
+    "exclude": ["dflazy", "logo"],
+    "title": "select.single-chapter-select option[selected]"
   },
   "paging": {
     "mode": "next-link",

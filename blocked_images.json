@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -139,6 +139,134 @@
       "dhash": "a4af3f332bc7c73f",
       "aspect": 0.5,
       "note": "Banner nen do vien rang cua trang/den: co gai tai cao ao thuy thu den lam dau tay chu V ben phai + 2 dong chu trang 'chuong moi cap nhat som nhat' + ten website chu vang + 2 dong link (800x400); ghep dau trang ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "scan_credit_card_cork_board",
+      "dhash": "63364e27656e452c",
+      "aspect": 0.686,
+      "note": "Anh QC dung mot minh (1000x686): the ghi credit nhom dich tren nen bang ghim go + anh co gai mu rom ben trai + link fanpage + giay note keu goi ung ho; la trang CUOI chapter"
+    },
+    {
+      "id": "scan_fanpage_card_cork_board_cover",
+      "dhash": "63723c6c6d3d9d6e",
+      "aspect": 0.686,
+      "note": "Bien the cung khung (1000x686): anh bia truyen ben trai thay anh co gai, ten nhom chu hong lon + link fanpage + credit; trang cuoi chapter"
+    },
+    {
+      "id": "scan_credit_banner_cover_collage",
+      "dhash": "ab89c9a9ce4b0e2a",
+      "aspect": 0.686,
+      "note": "Anh QC dung mot minh (1000x686): anh ghep bia truyen mo + 2 dong link 'tim chuong moi nhat' / fanpage + ten nhom + credit o day; dau chapter"
+    },
+    {
+      "id": "qr_ad_free_reading_card",
+      "dhash": "8021c5c5a5832780",
+      "aspect": 0.642,
+      "note": "Anh QC dung mot minh (671x431): the vien den bo goc, ben trai ten nhom + link + icon dien thoai 'doc truyen khong quang cao', ben phai ma QR; dau chapter"
+    },
+    {
+      "id": "black_fanpage_comment_notice",
+      "dhash": "0000202909090000",
+      "aspect": 0.563,
+      "maxDistance": 6,
+      "note": "Anh QC dung mot minh (1000x563): nen den + 4 dong chu trang keu goi vao fanpage binh luan/like + ten nhom; cuoi chapter. Nen den nhieu bit 0 -> nguong 6"
+    },
+    {
+      "id": "black_fanpage_comment_notice_red",
+      "dhash": "40713b0f0f1b2f00",
+      "aspect": 0.563,
+      "maxDistance": 8,
+      "note": "Bien the cua black_fanpage_comment_notice (1000x563): chu do canh giua nhieu dong hon + logo tron goc phai duoi; cuoi chapter"
+    },
+    {
+      "id": "sakura_site_notice_tall",
+      "dhash": "07c120d08cc83844",
+      "aspect": 1.414,
+      "note": "Anh QC dung mot minh (1000x1414): nen hoa anh dao + logo website goc trai + 3 vong tron anh nhan vat + doan chu chong leech va link website doc chap moi; dau chapter"
+    },
+    {
+      "id": "sakura_site_notice_short",
+      "dhash": "8b1346c151c40820",
+      "aspect": 0.494,
+      "note": "Ban ngan cua sakura_site_notice_tall (1000x494): chi con 3 dong chu 'doc chap moi som nhat tren site' + link + co gai nam doc sach; dau chapter"
+    },
+    {
+      "id": "sister_series_cover_promo",
+      "dhash": "0e2daf8dad2da7cb",
+      "aspect": 0.703,
+      "note": "Anh QC dung mot minh (1000x703): bia truyen khac cua nhom (4 co gai trong nha go, so 3 trong vong tron) + chu vang 'ung ho bon minh tai' + link fanpage; dau chapter"
+    },
+    {
+      "id": "yellow_tape_warning_notice",
+      "dhash": "930a10101411114d",
+      "aspect": 0.625,
+      "note": "Anh QC dung mot minh (1000x625): 2 dai bang vang-den 'WARNING' tren/duoi + mat nhan vat do mau ben trai + chu canh bao chong leech / link fanpage ben phai; dau chapter. Phu ca 2 bien the chu (cach nhau ~4 bit)"
+    },
+    {
+      "id": "chibi_fox_girls_fanpage_promo",
+      "dhash": "e8aa79e460b4eec9",
+      "aspect": 1.436,
+      "note": "Anh QC dung mot minh (1000x1436): ten nhom chu hong lon + link fanpage + 2 bong thoai keu goi binh luan/like + credit, 3 nhan vat chibi tai cao trang do; dau chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "teal_site_banner_glasses_girl",
+      "dhash": "024b6b191559315a",
+      "aspect": 0.5,
+      "note": "Anh QC dung mot minh (1000x500): banner nen xanh ngoc, co gai deo kinh ao hong ben trai + ten website chu trang nghieng + link + 1 dong gioi thieu; dau chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "pale_site_banner_schoolgirl",
+      "dhash": "4e2dee6ca46a6a1e",
+      "aspect": 0.533,
+      "note": "Anh QC dung mot minh (1000x533): banner nen xanh nhat, nu sinh toc den ben trai + ten website chu xanh lon 2 dong + link nho; dau chapter"
+    },
+    {
+      "id": "forest_site_banner_green_hair",
+      "dhash": "315ede080e0a1a1b",
+      "aspect": 0.8,
+      "note": "Anh QC dung mot minh (900x720): nen rung xanh, co gai toc xanh la vay den ben trai + ten website chu trang nghieng + link; cuoi chapter"
+    },
+    {
+      "id": "recruit_notice_white_hair_girl",
+      "dhash": "c0464ccfc8ccec4c",
+      "aspect": 0.625,
+      "note": "Anh QC dung mot minh (1000x625): tieu de 'tuyen thanh vien' + nhieu dong chu xanh/do (vi tri tuyen, lien he fanpage/email) ben trai, co gai toc trang ao xanh ben phai; cuoi chapter"
+    },
+    {
+      "id": "recruit_card_white_hair_girl",
+      "dhash": "c2404ac8ccc2e848",
+      "aspect": 0.625,
+      "note": "Bien the cung bo cuc (1000x625): ten nhom chu xanh lon + slogan + 2 dong link + 2 dong tuyen thanh vien ben trai, co gai toc trang ben phai; dau chapter"
+    },
+    {
+      "id": "anti_leech_site_notice_list",
+      "dhash": "1cbc9e90dedc9a1c",
+      "aspect": 0.544,
+      "note": "Anh QC dung mot minh (1000x544): ten website chu den tren cung + 6 dong chu do dang gach dau dong (chong leech, ghi nguon, ghe tham website) + co gai toc tim ben phai; dau chapter"
+    },
+    {
+      "id": "volume_cover_scan_credit_overlay",
+      "dhash": "e3cd3abbb39a0ab6",
+      "aspect": 1.543,
+      "note": "Anh bia tap 3 bi chen ten nhom + link fanpage va 4 dong credit chu xam (1000x1543); dung lam trang credit lap lai o dau nhieu chuong (sau sakura_site_notice_tall, truoc sister_series_cover_promo) -> an de chuoi QC dau chapter khong bi dut"
+    },
+    {
+      "id": "scan_credit_banner_magazine_collage",
+      "dhash": "cf9d9ddd9b95732b",
+      "aspect": 0.563,
+      "note": "Anh QC dung mot minh (1000x563): anh ghep bia tap chi mau + bia truyen ben phai + ten truyen chu hong, goc trai duoi 2 dong 'tim chuong moi nhat' / fanpage, thanh trang o day ten nhom + credit; cuoi chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "black_donation_site_notice",
+      "dhash": "56130f0e16171717",
+      "aspect": 1.0,
+      "note": "Anh QC dung mot minh (800x800): nen den, chu trang/xanh 'truyen duoc thuc hien boi' + ten website, keu goi ung ho kinh phi kem tai khoan ngan hang/paypal, 'ghe tham website' + logo goc phai duoi; dau chapter"
+    },
+    {
+      "id": "recruit_notice_pink_villain",
+      "dhash": "060f0f89ac46ccce",
+      "aspect": 0.554,
+      "note": "Anh QC dung mot minh (900x499): tieu de 'tuyen thanh vien' chu hong + cac dong yeu cau trans/edit + link fanpage ben trai, nhan vat hong to tron ben phai; dau chapter"
     }
   ]
 }

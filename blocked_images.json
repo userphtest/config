@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -726,6 +726,12 @@
       "dhash": "d8b29cc8571b1b10",
       "aspect": 0.708,
       "note": "Anh QC dung mot minh (1000x708): ten nhom 'manga theo yeu cau' + ma QR donate + link fanpage + dong chu xanh; dau chapter"
+    },
+    {
+      "id": "translate_group_donate_qr_card",
+      "dhash": "96d696ebf8b29eaa",
+      "aspect": 1.108,
+      "note": "Anh QC dung mot minh (1000x1108): tieu de vang 'truyen duoc dang tai som nhat tai' + ten nhom kem icon kenh video + doan chu canh bao dich chen/reup + keu goi donate, so tai khoan + email, hang 3 ma QR (ngan hang/vi dien tu); dau chapter ngay sau group_fanpage_follow_notice (2 chuong khop 0 bit)"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -21,13 +21,14 @@
       "id": "fanpage_screenshot_a",
       "dhash": "61cce6c7cede4c3b",
       "aspect": 1.55,
-      "note": "Anh chup fanpage (nut Follow) + 3 dong chu do keu goi theo doi page moi (800x1240), nam ngay duoi cover_website_notice"
+      "maxDistance": 1,
+      "note": "Anh chup fanpage (nut Follow) + 3 dong chu do keu goi theo doi page moi (800x1240), nam ngay duoi cover_website_notice. Nguong 1: ban 1.35 (fanpage_screenshot_red_footer) khop 0-1 bit o ~120 trang con tile nay 2-8 bit; khi lech <=2 bit no thang nho uu tien tile cao -> cat lo 0.2W va gay chuoi"
     },
     {
       "id": "fanpage_screenshot_b",
       "dhash": "30fcc2fcde5e5a3b",
       "aspect": 1.5,
-      "note": "Anh chup fanpage (hang avatar + 2 nut xam) + footer chu do tren nen trang (800x1200), nam ngay duoi cover_website_notice"
+      "note": "Anh chup fanpage (hang avatar + 2 nut xam) + footer chu do tren nen trang (800x1200), nam ngay duoi cover_website_notice. Nguong 1: ban 1.35 (fanpage_screenshot_red_footer) khop 0-1 bit o ~120 trang con tile nay 2-8 bit; khi lech <=2 bit no thang nho uu tien tile cao -> cat lo 0.2W va gay chuoi"
     },
     {
       "id": "fanpage_screenshot_short",
@@ -416,9 +417,9 @@
     },
     {
       "id": "pink_girl_cake_site_banner",
-      "dhash": "2c31622423aacdcd",
-      "aspect": 0.518,
-      "note": "Banner nen hong (1200x622): chu 'cap nhat som nhat tai trang' + ten website + 2 link ben trai, co gai toc den an banh kem ben phai; dau trang ngay tren ai_translate_pink_sky_banner"
+      "dhash": "2c31622623aacdcd",
+      "aspect": 0.503,
+      "note": "Banner nen hong (1200x622): chu 'cap nhat som nhat tai trang' + ten website + 2 link ben trai, co gai toc den an banh kem ben phai; dau trang ngay tren ai_translate_pink_sky_banner. v16: hash tinh lai tu DUNG vi tri chuoi tile (ngay sau fanpage_screenshot_red_footer, chua qua buoc do khe) - ban cu lech 0.02-0.08W nen khop sat nguong hoac truot"
     },
     {
       "id": "green_boy_site_banner",
@@ -446,21 +447,21 @@
     },
     {
       "id": "dark_purple_girl_site_banner",
-      "dhash": "fe7c7abfe3b57e9f",
-      "aspect": 0.668,
-      "note": "Banner nen tim than dem neon (850x568): ten website chu trang + 2 link ben trai, co gai toc den ao khoac da ben phai; ngay duoi fanpage_screenshot_red_footer, tren ai_translate_pink_sky_banner"
+      "dhash": "fc7cbab7a57f5eff",
+      "aspect": 0.75,
+      "note": "Banner nen tim than dem neon (850x568): ten website chu trang + 2 link ben trai, co gai toc den ao khoac da ben phai; ngay duoi fanpage_screenshot_red_footer, tren ai_translate_pink_sky_banner. v16: hash tinh lai tu DUNG vi tri chuoi tile (ngay sau fanpage_screenshot_red_footer, chua qua buoc do khe) - ban cu lech 0.02-0.08W nen khop sat nguong hoac truot"
     },
     {
       "id": "pink_hair_girl_site_banner",
-      "dhash": "a283aaa74fcadd9c",
-      "aspect": 0.732,
-      "note": "Banner nen pastel hong-vang-xanh (984x720): ten website chu trang lon 2 dong + 2 link ben trai, co gai toc hong buoc duoi ngua ao khoac xanh ben phai; ngay duoi fanpage_screenshot_red_footer"
+      "dhash": "a383aaaf4edaddbc",
+      "aspect": 0.752,
+      "note": "Banner nen pastel hong-vang-xanh (984x720): ten website chu trang lon 2 dong + 2 link ben trai, co gai toc hong buoc duoi ngua ao khoac xanh ben phai; ngay duoi fanpage_screenshot_red_footer. v16: hash tinh lai tu DUNG vi tri chuoi tile (ngay sau fanpage_screenshot_red_footer, chua qua buoc do khe) - ban cu lech 0.02-0.08W nen khop sat nguong hoac truot"
     },
     {
       "id": "pastel_blonde_girl_site_banner",
-      "dhash": "70e06048dcc8f131",
-      "aspect": 0.947,
-      "note": "Banner nen trang-xanh mint-hong pastel (1272x1205, kem le trang tren): ten website chu xanh dam + 2 link o khung hong ben trai, co gai toc vang ao hoodie xanh mint vay tay ben phai; ngay duoi fanpage_screenshot_red_footer"
+      "dhash": "50e0604cdad8b178",
+      "aspect": 1.0,
+      "note": "Banner nen trang-xanh mint-hong pastel (1272x1205, kem le trang tren): ten website chu xanh dam + 2 link o khung hong ben trai, co gai toc vang ao hoodie xanh mint vay tay ben phai; ngay duoi fanpage_screenshot_red_footer. v16: hash tinh lai tu DUNG vi tri chuoi tile (ngay sau fanpage_screenshot_red_footer, chua qua buoc do khe) - ban cu lech 0.02-0.08W nen khop sat nguong hoac truot"
     },
     {
       "id": "anime_grid_wide_site_banner",
@@ -579,6 +580,92 @@
       "dhash": "8e888cc88ce0e88c",
       "aspect": 0.969,
       "note": "Anh QC dung mot minh (900x872): 2 dong chu keu goi donate duy tri server + email paypal + so tai khoan ngan hang + 2 ma QR (momo) + logo website o day nen den; dau chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "red_hanfu_girl_site_banner",
+      "dhash": "7838306921302120",
+      "aspect": 0.466,
+      "maxDistance": 8,
+      "note": "Banner nen do-nau hoa van may (800x373): ten website chu trang lon + 2 link ben trai, co gai toc den ao co trang trang-do ben phai; ngay duoi fanpage_screenshot_red_footer (khop 0 bit o 5 chuong, rong 800/884/1050). Nhieu bit 0 -> nguong 8"
+    },
+    {
+      "id": "teal_collage_site_banner",
+      "dhash": "ec9eececdc35f0e0",
+      "aspect": 0.56,
+      "note": "Banner nen xanh ngoc (984x551): ghep rat nhieu nhan vat anime ben trai + ten website chu trang + dong link ben phai; ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "translate_group_quanque_card",
+      "dhash": "dae6a8b839215979",
+      "aspect": 0.5875,
+      "note": "The nhom dich (800x470): dai den logo nhom + 'truyen duoc dich boi' ten nhom, thanh cam 'don doc chap moi som nhat tai' + link fanpage chu xanh; ngay sau banner site, hay bi cat lat qua 2 anh (ghep mep)"
+    },
+    {
+      "id": "game_ad_write_your_legend",
+      "dhash": "28ed6b51a959d932",
+      "aspect": 1.77,
+      "note": "QC game doc (720x1274): tieu de 'write your own legend' + chien binh den trang giua tran chien + 'play at <website game>'; ngay duoi ai_translate_pink_sky_banner, tren scan_donation_meme_card"
+    },
+    {
+      "id": "scan_reader_unsupported_warning_en",
+      "dhash": "803a470f1b5d0f86",
+      "aspect": 1.396,
+      "note": "Ban tieng Anh cua scan_reader_unsupported_warning (800x1117): 'WARNING!' + 'reader that does not support our website has been detected' + dai van soc 'read at ... to support us'; ngay duoi laptop_showcase_site_banner (800 va 690 cach 2 bit)"
+    },
+    {
+      "id": "scan_site_series_promo_card_b",
+      "dhash": "3caca94b63635a7c",
+      "aspect": 0.662,
+      "note": "Bien the scan_site_series_promo_card (900x596, so chuong khac); ngay duoi laptop_showcase_site_banner"
+    },
+    {
+      "id": "site_reasons_card_w760",
+      "dhash": "ac01d470d870f4f4",
+      "aspect": 2.174,
+      "note": "Ban rong 760 cua the 'ban tim dau ra mot trang web nhu the nay' (KHONG kem laptop, kem khe trang); ngay duoi laptop_showcase_site_banner"
+    },
+    {
+      "id": "site_vip_support_card_w760",
+      "dhash": "dd8ebeee8f8ca492",
+      "aspect": 1.97,
+      "note": "Ban rong 760 cua site_vip_support_card (kem khe trang)"
+    },
+    {
+      "id": "novel_site_action_banner_w760",
+      "dhash": "fea9b2aeadaac2c6",
+      "aspect": 0.517,
+      "note": "Ban rong 760 cua novel_site_action_banner"
+    },
+    {
+      "id": "site_reasons_card_w900",
+      "dhash": "ac82d4f0f8f0f4e0",
+      "aspect": 1.833,
+      "note": "Ban rong 900 cua the 'ban tim dau ra mot trang web nhu the nay' (KHONG kem laptop, kem khe trang); ngay duoi laptop_showcase_site_banner"
+    },
+    {
+      "id": "site_vip_support_card_w900",
+      "dhash": "e28ebeae8e8eae96",
+      "aspect": 1.663,
+      "note": "Ban rong 900 cua site_vip_support_card (kem khe trang)"
+    },
+    {
+      "id": "novel_site_action_banner_w900",
+      "dhash": "faeab2aeaeaec6c6",
+      "aspect": 0.437,
+      "note": "Ban rong 900 cua novel_site_action_banner"
+    },
+    {
+      "id": "comic_site_discord_promo",
+      "dhash": "354e5e571f0b0094",
+      "aspect": 0.728,
+      "maxDistance": 8,
+      "note": "Khe trang + khung nen den (800x582): logo website truyen chu trang lon + dong 'join our discord' + link; ngay duoi novel_site_action_banner_w800. Nen den nhieu bit 0 -> nguong 8"
+    },
+    {
+      "id": "scan_read_only_warning",
+      "dhash": "c585c7274b8baacf",
+      "aspect": 1.448,
+      "note": "Canh bao nhom scan (800x1158): 'WARNING!! read only at <website>' chu trang lon + 'to support us and help us pay for staffs' + danh sach loi ich; ngay duoi laptop_showcase_site_banner"
     }
   ]
 }

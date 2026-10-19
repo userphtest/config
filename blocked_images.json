@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -666,6 +666,12 @@
       "dhash": "c585c7274b8baacf",
       "aspect": 1.448,
       "note": "Canh bao nhom scan (800x1158): 'WARNING!! read only at <website>' chu trang lon + 'to support us and help us pay for staffs' + danh sach loi ich; ngay duoi laptop_showcase_site_banner"
+    },
+    {
+      "id": "game_ad_face_legends",
+      "dhash": "8f8c190d2b55a64d",
+      "aspect": 1.739,
+      "note": "QC game doc (720x1252): tieu de chu vang 'face the legends again' + nhom anh hung dung truoc 8 canh cong phep mau + 'play at <website game>'; ngay duoi ai_translate_pink_sky_banner, tren scan_donation_meme_card"
     }
   ]
 }

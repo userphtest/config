@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -678,6 +678,54 @@
       "dhash": "002bd4e8d470e4d4",
       "aspect": 2.277,
       "note": "Ban rong 700 cua the 'ban tim dau ra mot trang web nhu the nay' (KHONG kem laptop, kem khe trang tru 59px le tren cua site_vip_support_card_w700); ngay duoi laptop_showcase_site_banner"
+    },
+    {
+      "id": "game_ad_fate_waiting",
+      "dhash": "8d931d14394b1d2a",
+      "aspect": 1.778,
+      "note": "QC game doc (720x1280): tieu de 'fate is waiting' + co gai phep thuat truoc vong tron sao + 'play at <website game>'; tren scan_donation_meme_card"
+    },
+    {
+      "id": "game_ad_outbuild",
+      "dhash": "5f158dce0e5b264b",
+      "aspect": 1.76,
+      "note": "QC game doc (720x1267): tieu de 'outbuild. outplay. conquer.' + 'play at <website game>'; ngay duoi ai_translate_pink_sky_banner, hay bi cat lat qua 2 anh (ghep mep); 2 chuong cach 2 bit"
+    },
+    {
+      "id": "game_ad_enter_weak",
+      "dhash": "51294d8e17334b1b",
+      "aspect": 1.753,
+      "note": "QC game doc (720x1262): tieu de 'enter weak. escape legendary.' + hiep si giap den trong dien do + 'play at <website game>'; tren scan_donation_meme_card"
+    },
+    {
+      "id": "bunny_villain_group_banner",
+      "dhash": "088aca394b595145",
+      "aspect": 0.562,
+      "note": "Banner nhom dich nen tim-hong (900x506): tho trang ben trai + ten nhom chu trang lon + 2 dong chu hong + khung trang 'tham gia dit cot' kem ma QR; ngay duoi banner site (2 chuong khop 0 bit)"
+    },
+    {
+      "id": "qimanga_promo_card",
+      "dhash": "cca527656763533c",
+      "aspect": 0.59,
+      "note": "The QC nhom scan nen tim (800x472): logo + 'chapters up to ... now available exclusively on site' + danh sach loi ich + ten website; ngay duoi ai_translate_pink_sky_banner (rong 690 cach ~5 bit)"
+    },
+    {
+      "id": "scan_site_series_promo_card_c",
+      "dhash": "3cac2d4c63e6567c",
+      "aspect": 0.669,
+      "note": "Bien the thu 3 cua scan_site_series_promo_card (900x602, so chuong khac): 2 ban truoc cach 10-11 bit -> sat nguong khi decode co sample"
+    },
+    {
+      "id": "scan_credit_card_series_cover",
+      "dhash": "5c451529922e8e69",
+      "aspect": 1.644,
+      "note": "The credit nhom scan doc (720x1184): khung tim hoa van, ten truyen + anh bia tron + so chuong + 6 o credit (TL/PR/ED/RD/TS/QC) + nut discord + ten website o day; ngay duoi ai_translate_pink_sky_banner"
+    },
+    {
+      "id": "manga_request_group_card",
+      "dhash": "d8b29cc8571b1b10",
+      "aspect": 0.708,
+      "note": "Anh QC dung mot minh (1000x708): ten nhom 'manga theo yeu cau' + ma QR donate + link fanpage + dong chu xanh; dau chapter"
     }
   ]
 }

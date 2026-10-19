@@ -1,9 +1,9 @@
 {
-  "version": 12,
+  "version": 13,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
-  "maxTiles": 6,
+  "maxTiles": 8,
   "tiles": [
     {
       "id": "fanpage_banner_standalone",
@@ -267,6 +267,206 @@
       "dhash": "060f0f89ac46ccce",
       "aspect": 0.554,
       "note": "Anh QC dung mot minh (900x499): tieu de 'tuyen thanh vien' chu hong + cac dong yeu cau trans/edit + link fanpage ben trai, nhan vat hong to tron ben phai; dau chapter"
+    },
+    {
+      "id": "ai_translate_kimono_cyborg_banner",
+      "dhash": "9e8b831a3b39aab2",
+      "aspect": 0.561,
+      "note": "Banner nen tim-xanh (1000x561): co gai kimono tim ben trai + chang trai tay may ben phai, ten website dich truyen AI chu trang lon o giua + 2 dong chu nho; ghep dau trang dau chapter (lap lai moi chuong)"
+    },
+    {
+      "id": "ai_translate_cartoon_reader_banner",
+      "dhash": "f0dfad4dad8baeaa",
+      "aspect": 0.559,
+      "note": "Banner hoat hinh (1000x559): nhom nhan vat chibi + thu cung doc truyen trong hieu sach, chu 'dich truyen bang AI' + ten website o day; ghep DAY trang cuoi chapter (quet mep duoi trang cuoi)"
+    },
+    {
+      "id": "ai_translate_pink_sky_banner",
+      "dhash": "9d8b4a919d9d8f0f",
+      "aspect": 0.5,
+      "maxDistance": 13,
+      "note": "Banner phong canh troi hong hoa dao (1200x600): co gai co trang ben phai + ten website dich truyen AI chu do nghieng o giua; nam ngay duoi yellow_site_banner o trang 2 dau chapter. Vi tri lech 20px do lat cat banner vang -> nguong 13 (tile khac >=24 bit)"
+    },
+    {
+      "id": "ai_translate_night_girl_banner",
+      "dhash": "07076db51d1d1b0f",
+      "aspect": 0.5,
+      "note": "Banner nen xanh dem anh trang (800x400): co gai toc trang vay xanh ben phai + ten website dich truyen AI chu trang nghieng o giua; cuoi chapter ngay tren cac banner site (quet mep duoi). GIU nguong mac dinh: nguong 12 da khop nham trang truyen nen xanh (d=12)"
+    },
+    {
+      "id": "trans_donation_qr_cat_notice",
+      "dhash": "401078ecd88ccc98",
+      "aspect": 1.094,
+      "note": "Anh QC dung mot minh (1280x1400): chu do keu goi ung ho trans kem so tai khoan ngan hang + ma QR ben phai, meo den voi bong thoai 'donate' o duoi tren nen trang; trang cuoi chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "community_promo_qr_card",
+      "dhash": "896d31a960606000",
+      "aspect": 0.385,
+      "note": "Anh QC dung mot minh (2211x852, co ban 2048x789): the nen den icon nhom + ten cong dong + doan gioi thieu + hang chip thong ke ben trai, ma QR lon ben phai; trang 2 dau chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "group_social_links_green_banner",
+      "dhash": "0052670125390111",
+      "aspect": 0.337,
+      "note": "Anh QC dung mot minh (1200x404): nen xanh la dam, 2 dong link kenh video va fanpage nhom dich kem icon, watermark website goc tren trai; trang 3 dau chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "game_ad_grind_glory",
+      "dhash": "b42ee5e8f8baf64a",
+      "aspect": 1.779,
+      "note": "QC game doc (720x1281): tieu de chu vang 'the grind becomes glory' + chien binh cam kiem lon tren nen hoang hon + thanh 'play at <website game>' o day; ghep dau trang ngay duoi ai_translate_pink_sky_banner"
+    },
+    {
+      "id": "game_ad_small_heroes",
+      "dhash": "5dc38cacaccaf9d9",
+      "aspect": 1.76,
+      "note": "QC game doc (720x1267): tieu de 'small heroes. massive builds.' + nhom nhan vat chibi, rong con, ruong bau + thanh 'play at <website game>' o day; cung vi tri voi game_ad_grind_glory (cach 31 bit)"
+    },
+    {
+      "id": "game_ad_forge_legacy",
+      "dhash": "5fd14b7979170f2b",
+      "aspect": 1.785,
+      "note": "QC game doc (720x1285): tieu de chu vang 'forge your legacy' + nu chien binh giap vang cam giao tren nen thanh pho bay + 'play at <website game>' o day; cung vi tri voi game_ad_grind_glory"
+    },
+    {
+      "id": "anime_grid_purple_link_banner",
+      "dhash": "8f0f13dbe96d4f49",
+      "aspect": 0.561,
+      "note": "Banner luoi nhan vat anime nen tim than + dai chu 'cap nhat chuong moi som nhat tai website' + ten website + 2 link du phong (800x449); ngay duoi fanpage_screenshot_red_footer, khac anime_grid_site_banner (22+ bit)"
+    },
+    {
+      "id": "anime_grid_orange_banner",
+      "dhash": "cca666ee6733bd53",
+      "aspect": 0.5625,
+      "note": "Banner luoi nhan vat anime nen cam do + dai chu 'cap nhat chuong moi som nhat tai website' + ten website chu trang lon (720x405); ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "scan_donation_meme_card",
+      "dhash": "861733d6d4d64d2f",
+      "aspect": 1.02,
+      "note": "The keu goi donate nhom scan (720x720, tile cao hon 2% de cua so do khe nong toi nen den/trang ngay sau the, khong dung o khe giua 2 dong chu): nen toi, anh meme mat nguoi + 2 khung meme trang/den, chu trang 'please if you like our work consider donating here' + ten website chu cam; ngay duoi game_ad_* o dau chapter"
+    },
+    {
+      "id": "laptop_showcase_site_banner",
+      "dhash": "989d97d178d88882",
+      "aspect": 0.544,
+      "note": "Banner nen xanh nhat (888x483): hang 4 bia truyen + laptop hien thi website ben phai, dong chu 'truy cap ngay' tren cung + ten website chu xanh o day; ngay duoi pink_characters_site_notice o trang 888x979 dau chapter -> ca trang bi an"
+    },
+    {
+      "id": "site_stack_laptop_reasons_w800",
+      "dhash": "8cd8705870d495d8",
+      "aspect": 2.61,
+      "note": "Dau trang 2 chapter, ban rong 800 (anh QC 720 canh giua): banner laptop + the nen trang 'ban tim dau ra mot trang web nhu the nay' liet ke ly do + 'hay den voi <website>', KEM khe trang ben duoi (800x2088)"
+    },
+    {
+      "id": "site_vip_support_card_w800",
+      "dhash": "868ebeea8e8ee6b2",
+      "aspect": 1.871,
+      "note": "The QC nen xanh den 'ho tro website - nhan VIP' + nut vang 'quyen loi VIP' + co gai doc truyen + nut 'nap VIP ngay', KEM khe trang (800x1497); ngay duoi site_stack_laptop_reasons_w800"
+    },
+    {
+      "id": "novel_site_action_banner_w800",
+      "dhash": "faa8b2aeaaaac2c6",
+      "aspect": 0.489,
+      "note": "Banner nen xanh den 'novel chuyen action manhwa' + kiem si ao trang + nut 'toi ngay' + ten website novel (800x391); ngay duoi site_vip_support_card_w800"
+    },
+    {
+      "id": "site_stack_laptop_reasons_w720",
+      "dhash": "acba70c870f4d4d8",
+      "aspect": 2.838,
+      "note": "Ban rong 720 cua site_stack_laptop_reasons_w800 (720x2043, kem khe trang); dau trang 2 chapter"
+    },
+    {
+      "id": "site_vip_support_card_w720",
+      "dhash": "350f3f7b0d8da492",
+      "aspect": 2.079,
+      "note": "Ban rong 720 cua site_vip_support_card_w800 (720x1497, kem khe trang)"
+    },
+    {
+      "id": "novel_site_action_banner_w720",
+      "dhash": "fca9b2ae296bc6c6",
+      "aspect": 0.546,
+      "note": "Ban rong 720 cua novel_site_action_banner_w800 (720x393)"
+    },
+    {
+      "id": "site_vip_support_card_w700",
+      "dhash": "de0f2f5b0d4d253b",
+      "aspect": 2.223,
+      "note": "Ban rong 700 cua site_vip_support_card (700x1556: le trang tren + the + khe trang); dau trang 2 chapter"
+    },
+    {
+      "id": "novel_site_action_banner_w700",
+      "dhash": "75f9a923292d43c7",
+      "aspect": 0.647,
+      "note": "Ban rong 700 cua novel_site_action_banner (700x453 kem le trang duoi); ngay duoi site_vip_support_card_w700"
+    },
+    {
+      "id": "fake_site_warning_notice",
+      "dhash": "ece0e89263a23332",
+      "aspect": 0.616,
+      "note": "Khung canh bao nen vang (1000x616): tieu de do 'canh bao' 2 icon tam giac + chu 'hien tai co rat nhieu trang web gia mao' + 2 link website chinh thuc chu xanh + dong cam on; dau trang 2 chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "scan_site_promo_merger_notice",
+      "dhash": "9a0000a56773271b",
+      "aspect": 1.944,
+      "maxDistance": 6,
+      "note": "QC nhom scan nen tim (800x1555 kem khe trang): logo + 'chapters up to ... available exclusively on site' + ten website, ben duoi khung 'merger announcement' chu nho; dau trang 2 chapter. Khe trang nhieu bit 0 -> nguong 6"
+    },
+    {
+      "id": "pink_girl_cake_site_banner",
+      "dhash": "2c31622423aacdcd",
+      "aspect": 0.518,
+      "note": "Banner nen hong (1200x622): chu 'cap nhat som nhat tai trang' + ten website + 2 link ben trai, co gai toc den an banh kem ben phai; dau trang ngay tren ai_translate_pink_sky_banner"
+    },
+    {
+      "id": "green_boy_site_banner",
+      "dhash": "c6c6c3dada5c5c58",
+      "aspect": 0.43,
+      "note": "Banner nen xanh ngoc nhat (800x344): ten website chu den lon + 2 link ben trai, chang trai ao khoac trang ben phai; ngay duoi fanpage_screenshot_red_footer, tren ai_translate_pink_sky_banner"
+    },
+    {
+      "id": "scan_team_anti_leech_warning",
+      "dhash": "b0cad4d4f0eca8e0",
+      "aspect": 1.242,
+      "note": "Anh QC dung mot minh (900x1118): tieu de do 'WARNING' + doan chu chi dang duy nhat tai web nhom / an cap trang tron + 3 dau chibi tai tho o day tren nen trang hong; dau chapter"
+    },
+    {
+      "id": "red_cloud_girl_site_banner",
+      "dhash": "a0cc0e3f3b3d1938",
+      "aspect": 0.462,
+      "note": "Banner nen do hoa van may vang (800x370): ten website chu trang lon + 2 link ben trai, co gai toc nau ao do-den ben phai; ngay duoi fanpage_screenshot_red_footer (lap lai rat nhieu chuong, 0-1 bit)"
+    },
+    {
+      "id": "orange_comic_boy_site_banner",
+      "dhash": "a1aea3c343e0e0a3",
+      "aspect": 0.716,
+      "note": "Banner nen cam-do kieu truyen tranh tia set vang (1273x911): khung trang 'truyen duoc cap nhat som nhat tai' + ten website, chang trai ao hoodie cam sach ben phai; ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "dark_purple_girl_site_banner",
+      "dhash": "fe7c7abfe3b57e9f",
+      "aspect": 0.668,
+      "note": "Banner nen tim than dem neon (850x568): ten website chu trang + 2 link ben trai, co gai toc den ao khoac da ben phai; ngay duoi fanpage_screenshot_red_footer, tren ai_translate_pink_sky_banner"
+    },
+    {
+      "id": "pink_hair_girl_site_banner",
+      "dhash": "a283aaa74fcadd9c",
+      "aspect": 0.732,
+      "note": "Banner nen pastel hong-vang-xanh (984x720): ten website chu trang lon 2 dong + 2 link ben trai, co gai toc hong buoc duoi ngua ao khoac xanh ben phai; ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "pastel_blonde_girl_site_banner",
+      "dhash": "70e06048dcc8f131",
+      "aspect": 0.947,
+      "note": "Banner nen trang-xanh mint-hong pastel (1272x1205, kem le trang tren): ten website chu xanh dam + 2 link o khung hong ben trai, co gai toc vang ao hoodie xanh mint vay tay ben phai; ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "anime_grid_wide_site_banner",
+      "dhash": "b999752f4b87dada",
+      "aspect": 0.333,
+      "note": "Banner ngang luoi nhan vat anime (868x289): dong chu 'cap nhat chuong moi som nhat tai website' + ten website chu trang lon + dong link du phong; ngay duoi fanpage_screenshot_red_footer"
     }
   ]
 }

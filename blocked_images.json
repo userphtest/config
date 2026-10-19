@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -477,9 +477,9 @@
     },
     {
       "id": "yuri_site_banner",
-      "dhash": "ed575256c2a22688",
-      "aspect": 0.389,
-      "note": "Banner (1920x747): 2 co gai toc nau/vang nam tren nen hoa trang + dai tim than chu hong ten website + dong slogan nho; dau chapter ngay duoi cac banner site"
+      "dhash": "8a8c6c5752c2a6aa",
+      "aspect": 0.5625,
+      "note": "Banner (1920x1080): 2 co gai toc nau/vang nam tren nen hoa trang + dai tim than chu hong ten website + dong slogan nho + phan duoi 2 ban tay nam nhau va huy hieu R; dau chapter ngay duoi cac banner site, hoac dau chong QC cuoi chapter. v22: ban cu chi do 747px dau banner -> luon sot dai 333px phan duoi"
     },
     {
       "id": "translate_group_pink_chibi_banner",

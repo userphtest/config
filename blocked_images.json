@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -672,6 +672,12 @@
       "dhash": "8f8c190d2b55a64d",
       "aspect": 1.739,
       "note": "QC game doc (720x1252): tieu de chu vang 'face the legends again' + nhom anh hung dung truoc 8 canh cong phep mau + 'play at <website game>'; ngay duoi ai_translate_pink_sky_banner, tren scan_donation_meme_card"
+    },
+    {
+      "id": "site_reasons_card_w700",
+      "dhash": "002bd4e8d470e4d4",
+      "aspect": 2.277,
+      "note": "Ban rong 700 cua the 'ban tim dau ra mot trang web nhu the nay' (KHONG kem laptop, kem khe trang tru 59px le tren cua site_vip_support_card_w700); ngay duoi laptop_showcase_site_banner"
     }
   ]
 }

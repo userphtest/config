@@ -92,7 +92,7 @@
                     }
                 ],
     "blockedImages":  {
-                        "version":  13,
+                        "version":  14,
                         "url":  "https://cdn.jsdelivr.net/gh/userphtest/config@main/blocked_images.json"
                     }
 }

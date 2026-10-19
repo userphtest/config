@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -467,6 +467,86 @@
       "dhash": "b999752f4b87dada",
       "aspect": 0.333,
       "note": "Banner ngang luoi nhan vat anime (868x289): dong chu 'cap nhat chuong moi som nhat tai website' + ten website chu trang lon + dong link du phong; ngay duoi fanpage_screenshot_red_footer"
+    },
+    {
+      "id": "orange_comic_boy_site_banner_wide",
+      "dhash": "a202a0aec343e0a3",
+      "aspect": 1.0,
+      "note": "Ban DAY DU cua orange_comic_boy_site_banner (banner vuong, do o anh rong 1920/2000 va khop ca anh 720-1266): nen cam-do tia set + khung trang 'truyen duoc cap nhat som nhat tai' + chang trai hoodie + phan tia set phia duoi ma tile 0.716 bo sot; hay bi cat lat qua 2 anh (ghep mep)"
+    },
+    {
+      "id": "yuri_site_banner",
+      "dhash": "ed575256c2a22688",
+      "aspect": 0.389,
+      "note": "Banner (1920x747): 2 co gai toc nau/vang nam tren nen hoa trang + dai tim than chu hong ten website + dong slogan nho; dau chapter ngay duoi cac banner site"
+    },
+    {
+      "id": "translate_group_pink_chibi_banner",
+      "dhash": "030171694d45011f",
+      "aspect": 0.5,
+      "note": "Banner nen hong (2000x1000): ten nhom dich chu cau vong lon o giua + slogan nho, vien nhieu dau nhan vat chibi hai ben; dau chapter (truoc community_promo_qr_card)"
+    },
+    {
+      "id": "scan_reader_unsupported_warning",
+      "dhash": "a43a070f0f2f074f",
+      "aspect": 1.351,
+      "note": "Khung canh bao nen den (855x1155): tieu de vang 'WARNING!' icon tam giac + chu trang 'phat hien trinh doc khong ho tro trang web cua chung toi' + link website nhom + dai van soc trang den 'read at <website> to support us' o day; dau chapter"
+    },
+    {
+      "id": "scan_site_series_promo_card",
+      "dhash": "3caca14d6161557c",
+      "aspect": 0.669,
+      "note": "The QC nhom scan (900x602): bia truyen ben trai + nhan vat mu trum + so chuong trong vong + ten website chu trang + hang nut discord/credit; dau chapter ngay duoi ai_translate_pink_sky_banner"
+    },
+    {
+      "id": "read_more_chapters_site_notice",
+      "dhash": "c89bc5c93f256766",
+      "aspect": 0.564,
+      "note": "Banner nen toi (800x451): logo studio + chu 'read more chapters on <website>' + hang anh panel truyen mo; dau va cuoi chapter"
+    },
+    {
+      "id": "scan_team_translation_notice",
+      "dhash": "070b070f1f0b0f19",
+      "aspect": 1.368,
+      "maxDistance": 8,
+      "note": "Thong bao nhom scan nen den-tim (800x1094): 5 dai anh nhan vat doc + tieu de 'NOTICE' + doan chu 'this chapter was translated by ... visit our website' + nut discord; dau chapter. Nen toi nhieu bit 0 -> nguong 8"
+    },
+    {
+      "id": "translate_group_rainbow_notebook_banner",
+      "dhash": "8183adb99195170d",
+      "aspect": 0.563,
+      "note": "Banner nen hong giay o vuong (884x498): ten nhom chu xanh + 2 dong 'ung ho su ton tai cua nhom dich bang cach doc tai web chinh chu' + ten nhom chu do + cau vong; dau chapter"
+    },
+    {
+      "id": "scan_team_credit_storm_card",
+      "dhash": "9a9da9db9bf2b3f3",
+      "aspect": 0.598,
+      "note": "The credit nhom scan nen toi (800x478): logo nhom + chu 'this chapter was brought to you by ... show your support and join' + nhan vat toc trang cam kiem ben phai; trang 3 dau chapter ngay duoi laptop_showcase_site_banner"
+    },
+    {
+      "id": "novel_site_black_notice",
+      "dhash": "2b27808181818194",
+      "aspect": 0.614,
+      "maxDistance": 6,
+      "note": "Khe trang + khung nen den (800x491): logo nho goc trai + ten website chu xanh + 3 dong chu do/trang 'cap nhat truyen hot nhat & mien phi ... doc de nhom minh dich tiep'; ngay duoi novel_site_action_banner_w800. Nen den nhieu bit 0 -> nguong 6"
+    },
+    {
+      "id": "novel_and_characters_last_page_w700",
+      "dhash": "ba3035b5a92329c7",
+      "aspect": 1.13,
+      "note": "Trang CUOI chapter (700x791) toan QC: banner 'novel chuyen action manhwa' o tren + banner nhieu nhan vat anime 'cap nhat chuong moi som nhat tai website' o duoi -> an ca trang (novel_site_action_banner_w700 lam chuoi cat thieu)"
+    },
+    {
+      "id": "trans_donation_qr_pink_card",
+      "dhash": "ccf06169712df8ac",
+      "aspect": 1.642,
+      "note": "The ung ho nhom dich nen hong nhat (780x1281, kem le trang tren): ten + so tai khoan an + ma QR trong khung trang (momo/vietqr/napas) + 4 dong chu keu goi ung ho; cuoi chapter phia tren cac banner site"
+    },
+    {
+      "id": "game_ad_beginning_twin_knights",
+      "dhash": "2d0f3b96de5c1f03",
+      "aspect": 1.776,
+      "note": "QC game doc (800x1421): dong chu vang 'buoi hoc cua nguoi moi chi la khoi dau thoi' + 2 hiep si do/vang sau lung chang trai cam kiem + thanh 'play at <website game>' o day; cuoi chapter ngay tren ai_translate_night_girl_banner"
     }
   ]
 }

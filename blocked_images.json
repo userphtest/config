@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -547,6 +547,38 @@
       "dhash": "2d0f3b96de5c1f03",
       "aspect": 1.776,
       "note": "QC game doc (800x1421): dong chu vang 'buoi hoc cua nguoi moi chi la khoi dau thoi' + 2 hiep si do/vang sau lung chang trai cam kiem + thanh 'play at <website game>' o day; cuoi chapter ngay tren ai_translate_night_girl_banner"
+    },
+    {
+      "id": "translate_group_black_donation_box_w1000",
+      "dhash": "d0ccacccccdc9c94",
+      "aspect": 0.711,
+      "maxDistance": 8,
+      "note": "Dau trang dau chapter (1000x711): khung nen den canh giua co le trang 2 ben, chu 'truyen duoc thuc hien boi' + ten website do + 'ung ho nhom dich' + so tai khoan ngan hang/paypal + link theo doi; phan duoi la trang truyen (cat). Nen den nhieu bit giong nhau -> nguong 8"
+    },
+    {
+      "id": "translate_group_black_donation_box_w950",
+      "dhash": "80ae8e8e868e8680",
+      "aspect": 0.842,
+      "maxDistance": 8,
+      "note": "Ban rong 950 cua translate_group_black_donation_box_w1000 (950x800, khung den lon hon); dau trang dau chapter"
+    },
+    {
+      "id": "translate_group_credit_cover_card",
+      "dhash": "ead83a8a8f8ddccb",
+      "aspect": 0.769,
+      "note": "Anh QC dung mot minh (1000x769): bia truyen ben trai + ten truyen chu den lon + danh sach credit nhom dich (translation/cleaner/typesetter) + khung 'theo doi chung toi' kem 5 link mang xa hoi; dau chapter (lap lai nhieu chuong)"
+    },
+    {
+      "id": "translate_group_website_notice_girl",
+      "dhash": "8696d29a9e9e98b8",
+      "aspect": 0.544,
+      "note": "Anh QC dung mot minh (1000x544): ten website nhom tren cung + 3 dong chu do gach dau dong (truyen duoc thuc hien boi team, chi dang tai website, ung ho nhom) ben trai, co gai toc nau ao do ben phai; dau chapter"
+    },
+    {
+      "id": "site_donation_two_qr_card",
+      "dhash": "8e888cc88ce0e88c",
+      "aspect": 0.969,
+      "note": "Anh QC dung mot minh (900x872): 2 dong chu keu goi donate duy tri server + email paypal + so tai khoan ngan hang + 2 ma QR (momo) + logo website o day nen den; dau chapter (lap lai nhieu chuong)"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -732,6 +732,12 @@
       "dhash": "96d696ebf8b29eaa",
       "aspect": 1.108,
       "note": "Anh QC dung mot minh (1000x1108): tieu de vang 'truyen duoc dang tai som nhat tai' + ten nhom kem icon kenh video + doan chu canh bao dich chen/reup + keu goi donate, so tai khoan + email, hang 3 ma QR (ngan hang/vi dien tu); dau chapter ngay sau group_fanpage_follow_notice (2 chuong khop 0 bit)"
+    },
+    {
+      "id": "discord_join_scan_group_poster",
+      "dhash": "c153232b2b1737f0",
+      "aspect": 1.5,
+      "note": "Poster nen do toi (800x1200): logo nhom scan + chu 'JOIN OUR DISCORD' + 3 dong chu trang 'de duoc thong bao moi khi co ban phat hanh moi' + khung link discord + nhan vat ao den + ma QR; dung dau anh cuoi chapter, ben duoi la chong QC (ai_translate_night_girl_banner + wide_purple_site_banner + fanpage + cover) -> quet mep duoi trang cuoi noi tiep toi poster -> an ca trang"
     }
   ]
 }

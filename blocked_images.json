@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -738,6 +738,30 @@
       "dhash": "c153232b2b1737f0",
       "aspect": 1.5,
       "note": "Poster nen do toi (800x1200): logo nhom scan + chu 'JOIN OUR DISCORD' + 3 dong chu trang 'de duoc thong bao moi khi co ban phat hanh moi' + khung link discord + nhan vat ao den + ma QR; dung dau anh cuoi chapter, ben duoi la chong QC (ai_translate_night_girl_banner + wide_purple_site_banner + fanpage + cover) -> quet mep duoi trang cuoi noi tiep toi poster -> an ca trang"
+    },
+    {
+      "id": "silentquill_support_page_dichtruyenai_banner_w1200",
+      "dhash": "071d59dce9d4a4ac",
+      "aspect": 1.565,
+      "note": "v23. Chong QC cuoi chapter bi nguon cat lai thanh lat 2500px (3 lat cuoi toan QC). Lat 1 (1200x2500) tu dau: trang 'please support us by also reading on our website' + ten website do, 5 co gai vay den tren nen trang van da (watermark 'thuc hien boi' goc trai) + banner DichTruyenAI phong canh xanh co gai ao xanh [0,1878) -> 1 tile vi khong co khe trang giua 2 khoi; ben duoi la orange_comic_boy_banner_head_w1200"
+    },
+    {
+      "id": "orange_comic_boy_banner_head_w1200",
+      "dhash": "a3c34343e36ca1a3",
+      "aspect": 0.5183,
+      "note": "v23. Day lat 1 cua chong QC cat 2500px: 622px DAU cua banner cam vuong orange_comic_boy_site_banner_wide (nen cam don sac, khung trang 'truyen duoc cap nhat som nhat tai' + ten website + chang trai hoodie); 578px con lai nam o dau lat 2 (orange_comic_boy_banner_tail_splash_w1200). Chuoi quet mep duoi trang cuoi: head + silentquill -> an ca lat"
+    },
+    {
+      "id": "orange_comic_boy_banner_tail_splash_w1200",
+      "dhash": "e3820602a2a1aeaa",
+      "aspect": 0.4817,
+      "note": "v23. Dau lat 2 (1200x2500) cua chong QC cat 2500px: 578px DUOI cua banner cam vuong (chan chang trai + vung trang tri tia set/ngoi sao nen kem) [0,578); ben duoi la fanpage_screenshot_red_footer roi 300px dau cover_website_notice, phan con lai (599px) la lat 3 = trang cuoi chapter. Lat 3 ngan hon moi tile nen app ghep mep cap lat cuoi theo chieu tu tren xuong: tile nay + red_footer + (302px + lat 3 = cover_website_notice) -> an ca 2 lat"
+    },
+    {
+      "id": "storyai_game_ad_imgur_w500",
+      "dhash": "0e8f1339ced64dcb",
+      "aspect": 0.666,
+      "note": "v23. Anh QC dung mot minh (500x333, host imgur) API chen o index -1 (dau) va -2 (cuoi) moi chapter: QC game 'tieu thuyet tuong tac' nen cam-do, ten app chu trang, 3 o tinh nang, nut 'choi ngay' vang; dau va cuoi chapter"
     }
   ]
 }

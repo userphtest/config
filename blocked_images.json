@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "defaultMaxDistance": 10,
   "defaultRatioTolerance": 0.08,
   "anchors": ["top"],
@@ -762,6 +762,41 @@
       "dhash": "0e8f1339ced64dcb",
       "aspect": 0.666,
       "note": "v23. Anh QC dung mot minh (500x333, host imgur) API chen o index -1 (dau) va -2 (cuoi) moi chapter: QC game 'tieu thuyet tuong tac' nen cam-do, ten app chu trang, 3 o tinh nang, nut 'choi ngay' vang; dau va cuoi chapter"
+    },
+    {
+      "id": "qimanga_logo_card_black",
+      "dhash": "0f3f27270b37004c",
+      "aspect": 0.4013,
+      "maxDistance": 7,
+      "note": "v24. The logo website (khung tim vien, dau soi + ten website chu trang) + dong chu mo 'ung ho chung toi tai' tren nen DEN (800x321), ngay duoi the MERGER (qimanga_promo_card); chuoi: novel_site_action_banner_w800 -> khe trang 90px (app bo qua khe nen giua 2 QC) -> qimanga_promo_card -> tile nay. Phia duoi la loi thoai truyen tren nen den; khung truyen toi gan nhat lech 11 bit -> nguong 7"
+    },
+    {
+      "id": "luottruyen_text_site_notice_w800",
+      "dhash": "e8f8e8d8ccf4d4c8",
+      "aspect": 0.24,
+      "maxDistance": 4,
+      "note": "v24. Khoi chu thong bao tren nen TRANG, cat sat chu (800x192): ten website xanh + 'cap nhat truyen hot som nhat & mien phi' + loi keu goi ghe web de nhom dich tiep; sau novel_site_action_banner_w800 + khe trang ~300px (app bo qua khe). Chu tren nen trang de giong bong thoai (trang truyen gan nhat lech 8 bit) -> nguong chat 4"
+    },
+    {
+      "id": "soaicacomic_text_site_notice_w700",
+      "dhash": "71f1ccccc0f0cce8",
+      "aspect": 0.2286,
+      "maxDistance": 5,
+      "note": "v24. Khoi chu cam 4 dong tren nen TRANG, cat sat chu (700x160): 'truyen duoc dich va cap nhat som nhat tai trang web chinh chu ...' + loi keu goi doc tai web chinh chu; sau laptop_showcase_site_banner + khe trang dai ngan tuy chapter (app bo qua khe). Lech 4 bit o chapter khac; trang truyen gan nhat lech 9 bit -> nguong 5"
+    },
+    {
+      "id": "soaicacomic_text_site_notice_standalone",
+      "dhash": "000048f8c0eca400",
+      "aspect": 0.6043,
+      "maxDistance": 5,
+      "note": "v24. Cung khoi chu cam tren nhung DUNG RIENG mot trang (700x423, nen trang dem tren/duoi) -> an. Trang truyen gan nhat lech 10 bit -> nguong 5"
+    },
+    {
+      "id": "soaicacomic_text_site_notice_standalone_short",
+      "dhash": "0058f0ccd0ec9303",
+      "aspect": 0.4657,
+      "maxDistance": 6,
+      "note": "v24. Bien the dung rieng thap hon (700x326) cua soaicacomic_text_site_notice_standalone -> an. Trang truyen gan nhat lech 14 bit -> nguong 6"
     }
   ]
 }
